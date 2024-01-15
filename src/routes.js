@@ -22,6 +22,11 @@ const routes = [
         component: () => import('./views/kits/ beginner_basic_training/BeginnerWarm.vue')
     },
     {
+        path: '/beginner_warm_program',
+        name: 'beginner warm program',
+        component: () => import('./views/kits/ beginner_basic_training/beginner_basic_program/BeginnerWarmProgram.vue')
+    },
+    {
         path: '/beginner_first_period',
         name: 'beginner first period',
         component: () => import('./views/kits/ beginner_basic_training/BeginnerFirstPeriod.vue')
