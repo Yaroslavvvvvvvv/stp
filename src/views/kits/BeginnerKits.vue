@@ -18,13 +18,13 @@ const selectedSet = ref('basic');
   </div>
   <div class="relative" v-if="selectedSet === 'basic'">
     <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-green-400">
-      <h2 class="text-4xl">Вступні тренування</h2>
+      <router-link to="/beginner_warm" class="text-4xl">Вступні тренування</router-link>
     </div>
     <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-indigo-600 text-white">
-      <h2 class="text-4xl">Період 1 (13-16 днів)</h2>
+      <router-link to="/beginner_first_period" class="text-4xl">Період 1 (13-16 днів)</router-link>
     </div>
     <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-purple-600 text-white">
-      <h2 class="text-4xl">Період 2 (14-16 днів)</h2>
+      <router-link to="/beginner_second_period" class="text-4xl">Період 2 (14-16 днів)</router-link>
     </div>
   </div>
   <div class="relative" v-if="selectedSet === 'full'">

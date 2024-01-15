@@ -17,6 +17,21 @@ const routes = [
         component: () => import('./views/kits/BeginnerKits.vue')
     },
     {
+        path: '/beginner_warm',
+        name: 'beginner warm',
+        component: () => import('./views/kits/ beginner_basic_training/BeginnerWarm.vue')
+    },
+    {
+        path: '/beginner_first_period',
+        name: 'beginner first period',
+        component: () => import('./views/kits/ beginner_basic_training/BeginnerFirstPeriod.vue')
+    },
+    {
+        path: '/beginner_second_period',
+        name: 'beginner second period',
+        component: () => import('./views/kits/ beginner_basic_training/BeginnerSecondPeriod.vue')
+    },
+    {
         path: '/student_kits',
         name: 'student kits',
         component: () => import('./views/kits/StudentKits.vue')
