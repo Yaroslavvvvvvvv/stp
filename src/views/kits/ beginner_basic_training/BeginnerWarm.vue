@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="w-10/12 md:w-7/12 lg:6/12 mx-auto relative py-20">
+  <div class="w-10/12 md:w-7/12 lg:6/12 mx-auto relative py-20 animate-fade-down animate-duration-1000">
     <div class="border-l-2 mt-10">
       <!-- Card 1 -->
       <router-link to="/beginner_warm_program">
