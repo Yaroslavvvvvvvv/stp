@@ -9,11 +9,11 @@
         <div class="relative flex flex-col shadow-md rounded-xl overflow-hidden hover:shadow-lg hover:-translate-y-1 transition-all duration-300 max-w-sm">
           <div class="h-auto overflow-hidden">
             <div class="h-44 overflow-hidden relative">
-              <img src="https://picsum.photos/400/400" alt="">
+              <img src="../../../../../public/images/girl_push_up.webp" alt="" class="">
             </div>
           </div>
           <div class="bg-white py-4 px-3">
-            <h3 class="text-sm mb-2 font-medium">1-2 присідання + 1-2 підтягування стоячи ногами на землі + 1-2
+            <h3 class="text-sm font-extrabold">1-2 присідання + 1-2 підтягування стоячи ногами на землі + 1-2
               віджимання від підлоги з колін + 2 скручування на прес на підлозі. 15 хвилин роботи у комфортному
               темпі.</h3>
           </div>
@@ -22,11 +22,11 @@
             class="relative flex flex-col shadow-md rounded-xl overflow-hidden hover:shadow-lg hover:-translate-y-1 transition-all duration-300 max-w-sm">
           <div class="h-auto overflow-hidden">
             <div class="h-44 overflow-hidden relative">
-              <img src="https://picsum.photos/400/400" alt="">
+              <img src="../../../../../public/images/second_run_man.webp" alt="" class="">
             </div>
           </div>
           <div class="bg-white py-4 px-3">
-            <h3 class="text-sm mb-2 font-medium">Кардіо навантаження 15 хвилин.</h3>
+            <h3 class="text-sm font-extrabold">Кардіо навантаження 15 хвилин.</h3>
           </div>
         </div>
       </div>
