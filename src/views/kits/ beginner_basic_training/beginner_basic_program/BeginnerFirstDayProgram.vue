@@ -1,7 +1,7 @@
 <script setup>
 const exercises = [
   {
-    image: "../../../../../public/images/girl_push_up.webp",
+    image: "/images/girl_push_up.webp",
     description: "1-6 віджимання від підлоги з колін + 2-10 скручування на прес на підлозі. 1-1.5 хвилин роботи."
   },
   {
