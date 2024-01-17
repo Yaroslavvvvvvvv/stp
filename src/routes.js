@@ -37,9 +37,29 @@ const routes = [
         component: () => import('./views/kits/ beginner_basic_training/BeginnerFirstPeriod.vue')
     },
     {
+        path: '/beginner_first_day_program',
+        name: 'beginner first day program',
+        component: () => import('./views/kits/ beginner_basic_training/beginner_basic_program/BeginnerFirstDayProgram.vue')
+    },
+    {
+        path: '/beginner_second_day_program',
+        name: 'beginner second day program',
+        component: () => import('./views/kits/ beginner_basic_training/beginner_basic_program/BeginnerSecondDayProgram.vue')
+    },
+    {
         path: '/beginner_second_period',
         name: 'beginner second period',
         component: () => import('./views/kits/ beginner_basic_training/BeginnerSecondPeriod.vue')
+    },
+    {
+        path: '/beginner_day_first_program',
+        name: 'beginner day first program',
+        component: () => import('./views/kits/ beginner_basic_training/beginner_basic_program/BeginnerDayFirstProgram.vue')
+    },
+    {
+        path: '/beginner_day_second_program',
+        name: 'beginner day second program',
+        component: () => import('./views/kits/ beginner_basic_training/beginner_basic_program/BeginnerDaySecondProgram.vue')
     },
     {
         path: '/student_kits',
