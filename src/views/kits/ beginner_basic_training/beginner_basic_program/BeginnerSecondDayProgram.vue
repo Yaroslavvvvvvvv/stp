@@ -1,35 +1,35 @@
 <script setup>
 const exercises = [
   {
-    image: "../../../../../public/images/girl_push_up.webp",
+    image: "/images/girl_push_up.webp",
     description: "Підтягування стоячи ногами на землі. Тотал 8-40."
   },
   {
-    image: "../../../../../public/images/second_run_man.webp",
+    image: "/images/second_run_man.webp",
     description: "Австралійські підтягування тотал 8-30."
   },
   {
-    image: "../../../../../public/images/girl_push_up.webp",
+    image: "/images/girl_push_up.webp",
     description: "Підтягування стоячи ногами землі тотал 10-40."
   },
   {
-    image: "../../../../../public/images/second_run_man.webp",
+    image: "/images/second_run_man.webp",
     description: "Віджимання від підлоги. Тотал 6-20."
   },
   {
-    image: "../../../../../public/images/girl_push_up.webp",
+    image: "/images/girl_push_up.webp",
     description: "Віджимання від підлоги з колін. Тотал 10-30."
   },
   {
-    image: "../../../../../public/images/second_run_man.webp",
+    image: "/images/second_run_man.webp",
     description: "Віджимання від високих підставок. Тотал 10-30."
   },
   {
-    image: "../../../../../public/images/girl_push_up.webp",
+    image: "/images/girl_push_up.webp",
     description: "Присідання. Кожні 30 секунд 2-5 повторів. Тотал 30-50."
   },
   {
-    image: "../../../../../public/images/second_run_man.webp",
+    image: "/images/second_run_man.webp",
     description: "Кардіо навантаження 10 хвилин."
   },
 ];

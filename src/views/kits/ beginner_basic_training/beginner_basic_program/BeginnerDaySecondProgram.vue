@@ -1,44 +1,44 @@
 <script setup>
 const exercises = [
   {
-    image: "../../../../../public/images/girl_push_up.webp",
+    image: "/images/girl_push_up.webp",
     description: "Підтягування стоячи ногами на землі. 1 повтор кожні 30-45 секунд або швидше. Тотал 10-35."
   },
   {
-    image: "../../../../../public/images/second_run_man.webp",
+    image: "/images/second_run_man.webp",
     description: "Віджимання від підлоги. Тотал 10-40. Кожне останнє віджимання підходу робимо негативне опускання 3-5 " +
         "секунд або стоїмо в упорі на прямих руках 7-10 секунд."
   },
   {
-    image: "../../../../../public/images/girl_push_up.webp",
+    image: "/images/girl_push_up.webp",
     description: "5-10 присідань + 10-20 махів на плечі, вага 2-5 кг або вертикальні віджимання від стіни 5-10 повторів. 10 хвилин роботи."
   },
   {
-    image: "../../../../../public/images/second_run_man.webp",
+    image: "/images/second_run_man.webp",
     description: "2-10 віджимання від підлоги + віджимання від підлоги з колін в одній динаміці."
   },
   {
-    image: "../../../../../public/images/girl_push_up.webp",
+    image: "/images/girl_push_up.webp",
     description: "Підтягування стоячи на землі в динаміці."
   },
   {
-    image: "../../../../../public/images/second_run_man.webp",
+    image: "/images/second_run_man.webp",
     description: "Повторення пунктів 4-5."
   },
   {
-    image: "../../../../../public/images/girl_push_up.webp",
+    image: "/images/girl_push_up.webp",
     description: "Австралійські підтягування до первинної втоми."
   },
   {
-    image: "../../../../../public/images/second_run_man.webp",
+    image: "/images/second_run_man.webp",
     description: "Підйоми на ікри 10 повторів. Відпочинок 30 секунд і ще раз."
   },
   {
-    image: "../../../../../public/images/girl_push_up.webp",
+    image: "/images/girl_push_up.webp",
     description: "Повтор пунктів 7 і 8."
   },
   {
-    image: "../../../../../public/images/second_run_man.webp",
+    image: "/images/second_run_man.webp",
     description: "Кардіо навантаження 10-15 хвилин"
   },
 ];
