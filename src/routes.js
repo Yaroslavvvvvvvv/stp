@@ -62,6 +62,36 @@ const routes = [
         component: () => import('./views/kits/ beginner_basic_training/beginner_basic_program/BeginnerDaySecondProgram.vue')
     },
     {
+        path: '/beginner_first_full_period',
+        name: 'beginner first full period',
+        component: () => import('./views/kits/begginer_full_training/BeginnerFirstFullPeriod.vue'),
+    },
+    {
+        path: '/beginner_first_day_full_program',
+        name: 'beginner first day full program',
+        component: () => import('./views/kits/begginer_full_training/beginner_full_program/BeginnerFirstDayFullProgram.vue'),
+    },
+    {
+        path: '/beginner_second_day_full_program',
+        name: 'beginner second day full program',
+        component: () => import('./views/kits/begginer_full_training/beginner_full_program/BeginnerSecondDayFullProgram.vue'),
+    },
+    {
+        path: '/beginner_second_full_period',
+        name: 'beginner second full period',
+        component: () => import('./views/kits/begginer_full_training/BeginnerSecondFullPeriod.vue'),
+    },
+    {
+        path: '/beginner_day_first_full_program',
+        name: 'beginner day first full program',
+        component: () => import('./views/kits/begginer_full_training/beginner_full_program/BeginnerDayFirstFullProgram.vue'),
+    },
+    {
+        path: '/beginner_day_second_full_program',
+        name: 'beginner day second full program',
+        component: () => import('./views/kits/begginer_full_training/beginner_full_program/BeginnerDaySecondFullProgram.vue'),
+    },
+    {
         path: '/student_kits',
         name: 'student kits',
         component: () => import('./views/kits/StudentKits.vue')

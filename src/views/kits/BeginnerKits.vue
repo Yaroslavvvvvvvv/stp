@@ -53,15 +53,21 @@ const selectedSet = ref('basic');
     </router-link>
   </div>
   <div class="relative animate-fade-down animate-duration-1000" v-if="selectedSet === 'full'">
+    <router-link to="/beginner_warm">
     <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-green-400 text-white">
       <h2 class="text-3xl font-extrabold">Вступні тренування</h2>
     </div>
+    </router-link>
+    <router-link to="/beginner_first_full_period">
     <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-green-600 text-white">
       <h2 class="text-3xl font-extrabold">Період 1 (13-16 днів)</h2>
     </div>
+    </router-link>
+    <router-link to="/beginner_second_full_period">
     <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-green-800 text-white">
       <h2 class="text-3xl font-extrabold">Період 2 (14-16 днів)</h2>
     </div>
+    </router-link>
   </div>
 </template>
 
