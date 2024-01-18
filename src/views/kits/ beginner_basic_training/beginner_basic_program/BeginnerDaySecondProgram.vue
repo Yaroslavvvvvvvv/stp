@@ -1,40 +1,40 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування стоячи ногами на землі. 1 повтор кожні 30-45 секунд або швидше. Тотал 10-35."
   },
   {
-    image: "/images/second_run_man.webp",
+    image: "/images/girl_push_up.webp",
     description: "Віджимання від підлоги. Тотал 10-40. Кожне останнє віджимання підходу робимо негативне опускання 3-5." +
         "секунд або стоїмо в упорі на прямих руках 7-10 секунд."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/girl_squat.webp",
     description: "5-10 присідань + 10-20 махів на плечі, вага 2-5 кг або вертикальні віджимання від стіни 5-10 повторів. 10 хвилин роботи."
   },
   {
-    image: "/images/second_run_man.webp",
+    image: "/images/girl_push_up.webp",
     description: "2-10 віджимання від підлоги + віджимання від підлоги з колін в одній динаміці."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування стоячи на землі в динаміці."
   },
   {
-    image: "/images/second_run_man.webp",
+    image: "/images/repeat.webp",
     description: "Повторення пунктів 4-5."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/australian_pull_up.webp",
     description: "Австралійські підтягування до первинної втоми."
   },
   {
-    image: "/images/second_run_man.webp",
+    image: "/images/girl_squat.webp",
     description: "Підйоми на ікри 10 повторів. Відпочинок 30 секунд і ще раз."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/repeat.webp",
     description: "Повтор пунктів 7 і 8."
   },
   {
