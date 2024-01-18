@@ -7,9 +7,14 @@ const selectedSet = ref('basic');
 
 <template>
   <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-2 p-4 animate-fade-down animate-duration-1000">
+    <router-link to="/levels">
+      <button class="mb-8 group relative h-12 w-48 overflow-hidden rounded-2xl bg-sky-800 text-lg font-bold text-white">
+        Повернутись назад
+        <div class="absolute inset-0 h-full w-full scale-0 rounded-2xl transition-all duration-300 group-hover:scale-100 group-hover:bg-white/30"></div>
+      </button>
+    </router-link>
     <label>
       <input type="radio" value="basic" class="peer hidden" name="framework" id="basic" v-model="selectedSet">
-
       <div
           class="hover:bg-gray-50 flex items-center justify-between px-4 py-2 border-2 rounded-lg cursor-pointer text-sm border-gray-200 group peer-checked:border-blue-500">
         <h2 class="font-medium text-gray-700">Базовий комплект</h2>

@@ -10,6 +10,9 @@
         <div class="absolute inset-0 h-full w-full scale-0 rounded-2xl transition-all duration-300 group-hover:scale-100 group-hover:bg-white/30"></div>
       </button>
     </router-link>
+    <div>
+      <h2 class="text-center text-3xl font-bold text-cyan-800">Період 2 (14-16 днів)</h2>
+    </div>
     <div class="border-l-2 mt-10">
       <!-- Card 1 -->
       <router-link to="/beginner_day_first_program">
