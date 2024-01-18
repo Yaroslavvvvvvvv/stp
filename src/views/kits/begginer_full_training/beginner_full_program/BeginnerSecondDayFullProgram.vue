@@ -1,19 +1,19 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування з гумою. Тотал 6-20."
   },
   {
-    image: "/images/second_run_man.webp",
+    image: "/images/australian_pull_up.webp",
     description: "Австралійські підтягування тотал 8-30. Далі за бажанням один підхід горизонтальної тяги гуми в динаміці."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування стоячи ногами землі тотал 10-30. Далі за бажанням один підхід вертикальної тяги гуми в динаміці."
   },
   {
-    image: "/images/second_run_man.webp",
+    image: "/images/girl_push_up.webp",
     description: "Віджимання від підлоги. Тотал 6-20."
   },
   {
@@ -21,11 +21,11 @@ const exercises = [
     description: "Віджимання від підлоги з колін. Тотал 10-30."
   },
   {
-    image: "/images/second_run_man.webp",
+    image: "/images/girl_push_up.webp",
     description: "Віджимання від високих підставок. Тотал 10-30."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/girl_squat.webp",
     description: "Присідання. Кожні 30 секунд 2-5 повторів. Тотал 30-50."
   },
   {
