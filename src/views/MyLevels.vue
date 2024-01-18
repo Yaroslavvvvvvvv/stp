@@ -42,7 +42,7 @@ const products = [
     id: 2,
     name: 'Учень',
     to: 'student_kits',
-    imageSrc: '/images/levels/student_level.jpg',
+    imageSrc: '/images/levels/student_level.webp',
     info: 'Призначений для початкової підготовки та приведення в тонус, людини, з рівнем підготовки нижче за норму.'
   },
   {

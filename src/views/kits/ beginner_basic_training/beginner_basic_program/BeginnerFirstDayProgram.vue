@@ -5,21 +5,21 @@ const exercises = [
     description: "1-6 віджимання від підлоги з колін + 2-10 скручування на прес на підлозі. 1-1.5 хвилин роботи."
   },
   {
-    image: "/images/second_run_man.webp",
+    image: "/images/girl_squat.webp",
     description: "Присідання з підйомом на носок 5-10 повторів + упор на прямих руках 5-15 секунд + підтягування стоячи\n" +
         "              ногами на землі в одній динаміці."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/girl_deadlift.webp",
     description: "Підтягування стоячи ногами на землі до первинної втоми + мертва тяга зі зведенням лопаток з вагою від 6 до\n" +
         "              20 кг до первинної втоми."
   },
   {
-    image: "/images/second_run_man.webp",
+    image: "/images/repeat.webp",
     description: "Повторення пунктів з 1 по 3."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/boy_biceps.webp",
     description: "Підйом ваги від 4 до 8 кг на біцепс з наступним жимом над головою. В одній динаміці два підходи."
   },
   {
