@@ -34,7 +34,7 @@ const products = [
     id: 1,
     name: 'Новачок',
     to: 'beginner_kits',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
+    imageSrc: '/images/levels/beginner_level.webp',
     info: 'Призначений для початкової підготовки та приведення в тонус, людини з практично нульовим рівнем будь-яким ' +
         'силових показників.',
   },
@@ -42,21 +42,21 @@ const products = [
     id: 2,
     name: 'Учень',
     to: 'student_kits',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
+    imageSrc: '/images/levels/student_level.jpg',
     info: 'Призначений для початкової підготовки та приведення в тонус, людини, з рівнем підготовки нижче за норму.'
   },
   {
     id: 3,
     name: 'Адепт',
     to: 'adept_kits',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
+    imageSrc: '/images/levels/adept_level.webp',
     info: 'Призначений для базової підготовки людини із середньо-загальним рівнем силових показників.',
   },
   {
     id: 4,
     name: 'Експерт',
     to: 'expert_kits',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
+    imageSrc: '/images/levels/expert_level.webp',
     info: 'Даний рівень призначений для просунутої підготовки людини, з рівнем силових показників вище середнього.',
   },
 ]
