@@ -11,6 +11,7 @@ const routes = [
         name: 'levels',
         component: () => import('./views/MyLevels.vue')
     },
+    //Beginner
     {
         path: '/beginner_kits',
         name: 'beginner kits',
@@ -91,16 +92,40 @@ const routes = [
         name: 'beginner day second full program',
         component: () => import('./views/kits/begginer_full_training/beginner_full_program/BeginnerDaySecondFullProgram.vue'),
     },
+    //Student
     {
         path: '/student_kits',
         name: 'student kits',
         component: () => import('./views/kits/StudentKits.vue')
     },
     {
+        path: '/student_warm',
+        name: 'student warm',
+        component: () => import('./views/kits/student_basic_training/StudentWarm.vue')
+    },
+    {
+        path: '/student_warm_program',
+        name: 'student warm program',
+        component: () => import('./views/kits/student_basic_training/student_basic_program/StudentWarmProgram.vue')
+    },
+    {
+        path: '/second_student_warm_program',
+        name: 'second student warm program',
+        component: () => import('./views/kits/student_basic_training/student_basic_program/SecondStudentWarmProgram.vue')
+    },
+    {
+        path: '/third_student_warm_program',
+        name: 'third student warm program',
+        component: () => import('./views/kits/student_basic_training/student_basic_program/ThirdStudentWarmProgram.vue')
+    },
+
+    //Adept
+    {
         path: '/adept_kits',
         name: 'adept kits',
         component: () => import('./views/kits/AdeptKits.vue')
     },
+    //Expert
     {
         path: '/expert_kits',
         name: 'expert kits',
