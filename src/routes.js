@@ -139,6 +139,16 @@ const routes = [
         component: () => import('./views/kits/student_full_training/StudentFirstFullPeriod.vue')
     },
     {
+        path: '/student_first_full_day_program',
+        name: 'student first full day program',
+        component: () => import('./views/kits/student_full_training/student_full_program/StudentFirstFullDayProgram.vue')
+    },
+    {
+        path: '/student_second_full_day_program',
+        name: 'student second full day program',
+        component: () => import('./views/kits/student_full_training/student_full_program/StudentSecondFullDayProgram.vue')
+    },
+    {
         path: '/student_second_period',
         name: 'student second period',
         component: () => import('./views/kits/student_basic_training/StudentSecondPeriod.vue')
