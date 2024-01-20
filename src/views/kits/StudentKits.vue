@@ -74,22 +74,22 @@ const selectedSet = ref('basic');
       </div>
     </router-link>
     <router-link to="/beginner_first_full_period">
-      <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-orange-300 text-white">
+      <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-green-600 text-white">
         <h2 class="text-3xl font-extrabold">Період 1 (13-16 днів)</h2>
       </div>
     </router-link>
     <router-link to="/beginner_second_full_period">
-      <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-orange-400 text-white">
+      <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-green-800 text-white">
         <h2 class="text-3xl font-extrabold">Період 2 (9-11 днів)</h2>
       </div>
     </router-link>
     <router-link to="/beginner_second_full_period">
-      <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-orange-500 text-white">
+      <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-lime-600 text-white">
         <h2 class="text-3xl font-extrabold">Період 3 (8-10 днів)</h2>
       </div>
     </router-link>
     <router-link to="/beginner_second_full_period">
-      <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-orange-600 text-white">
+      <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-lime-800 text-white">
         <h2 class="text-3xl font-extrabold">Період 4 (7-9 днів)</h2>
       </div>
     </router-link>
