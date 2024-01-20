@@ -1,21 +1,21 @@
 <script setup>
 const exercises = [
   {
+    image: "/images/men_pull_up.webp",
+    description: "Підтягування стоячи ногами на землі. 1 повтор кожні 30-45 секунд або швидше. Тотал 10-35."
+  },
+  {
     image: "/images/girl_push_up.webp",
-    description: "Віджимання на брусах 2 + підтягування стоячи ногами на землі та одразу ж австралійські. Кожен новий підхід +2/1."
+    description: "Віджимання від підлоги. Тотал 10-40. Кожне останнє віджимання підходу робимо негативне опускання 3-5." +
+        "секунд або стоїмо в упорі на прямих руках 7-10 секунд."
   },
   {
     image: "/images/girl_squat.webp",
-    description: "Австралійські підтягування 12 повторів + віджимання від підлоги 12 повторів. 10/10-8/8-6/6-4/4."
+    description: "5-10 присідань + 10-20 махів на плечі, вага 2-5 кг або вертикальні віджимання від стіни 5-10 повторів. 10 хвилин роботи."
   },
   {
-    image: "/images/girl_deadlift.webp",
-    description: "Насос + скручування на прес. Кожен підхід + 2 повтори, починаємо з 5 повторів. Відпочинок 15 секунд. " +
-        "Кожний новий підхід відпочинок + 5 секунд. До максимуму, темп виконання середній."
-  },
-  {
-    image: "/images/repeat.webp",
-    description: "Вертикальні віджимання в динаміці 3 підходи. Відпочинок не більше хвилини."
+    image: "/images/girl_push_up.webp",
+    description: "2-10 віджимання від підлоги + віджимання від підлоги з колін в одній динаміці."
   }
 ];
 </script>
@@ -23,14 +23,14 @@ const exercises = [
 <template>
   <div class="relative flex min-h-screen flex-col justify-center overflow-hidden bg-gray- py-6 sm:py-12 animate-fade-down animate-duration-1000">
     <div class="mx-auto max-w-screen-xl px-4 w-full">
-      <router-link to="/student_first_period">
+      <router-link to="/student_second_period">
         <button class="mb-8 group relative h-12 w-48 overflow-hidden rounded-2xl bg-sky-800 text-lg font-bold text-white">
           Повернутись назад
           <div class="absolute inset-0 h-full w-full scale-0 rounded-2xl transition-all duration-300 group-hover:scale-100 group-hover:bg-white/30"></div>
         </button>
       </router-link>
       <div class="mb-8">
-        <h2 class="text-center text-3xl font-bold text-blue-600">День 1</h2>
+        <h2 class="text-center text-3xl font-bold text-slate-600">День 2</h2>
       </div>
       <div class="grid w-full sm:grid-cols-2 xl:grid-cols-4 gap-6 ">
         <div v-for="(exercise, index) in exercises" :key="index" class="relative flex flex-col shadow-md rounded-xl overflow-hidden hover:shadow-lg hover:-translate-y-1 transition-all duration-300 max-w-sm">

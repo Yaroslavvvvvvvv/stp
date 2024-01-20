@@ -1,36 +1,43 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
-    description: "Віджимання на брусах 2 + підтягування стоячи ногами на землі та одразу ж австралійські. Кожен новий підхід +2/1."
+    image: "/images/australian_pull_up.webp",
+    description: "Австралійські підтягування в одній динаміці + вертикальні віджимання до первинної втоми. 10 хвилин роботи."
   },
   {
     image: "/images/girl_squat.webp",
-    description: "Австралійські підтягування 12 повторів + віджимання від підлоги 12 повторів. 10/10-8/8-6/6-4/4."
+    description: "\"Стульчик\" 5-10 секунд + 5-10 \"Насос\" + 5-10 присідань + 5-10 віджимань від підлоги або з колін. Три підходи."
   },
   {
-    image: "/images/girl_deadlift.webp",
-    description: "Насос + скручування на прес. Кожен підхід + 2 повтори, починаємо з 5 повторів. Відпочинок 15 секунд. " +
-        "Кожний новий підхід відпочинок + 5 секунд. До максимуму, темп виконання середній."
+    image: "/images/girl_twisting.webp",
+    description: "Підтягування стоячи ногами на землі в одній динаміці + скручування на прес на підлозі протягом 20-30 секунд. 2 підходи."
   },
   {
-    image: "/images/repeat.webp",
-    description: "Вертикальні віджимання в динаміці 3 підходи. Відпочинок не більше хвилини."
-  }
+    image: "/images/man_swing.webp",
+    description: "Махи на плечі від 1 до 4 кг. 15-30 повторів. Відпочинок 45 секунд. 4 підходи."
+  },
+  {
+    image: "/images/second_run_man.webp",
+    description: "Кардіо навантаження 10-15 хвилин."
+  },
+  {
+    image: "/images/second_run_man.webp",
+    description: "Кардіо навантаження 10-15 хвилин."
+  },
 ];
 </script>
 
 <template>
   <div class="relative flex min-h-screen flex-col justify-center overflow-hidden bg-gray- py-6 sm:py-12 animate-fade-down animate-duration-1000">
     <div class="mx-auto max-w-screen-xl px-4 w-full">
-      <router-link to="/student_first_period">
+      <router-link to="/student_second_period">
         <button class="mb-8 group relative h-12 w-48 overflow-hidden rounded-2xl bg-sky-800 text-lg font-bold text-white">
           Повернутись назад
           <div class="absolute inset-0 h-full w-full scale-0 rounded-2xl transition-all duration-300 group-hover:scale-100 group-hover:bg-white/30"></div>
         </button>
       </router-link>
       <div class="mb-8">
-        <h2 class="text-center text-3xl font-bold text-blue-600">День 1</h2>
+        <h2 class="text-center text-3xl font-bold text-purple-600">День 1</h2>
       </div>
       <div class="grid w-full sm:grid-cols-2 xl:grid-cols-4 gap-6 ">
         <div v-for="(exercise, index) in exercises" :key="index" class="relative flex flex-col shadow-md rounded-xl overflow-hidden hover:shadow-lg hover:-translate-y-1 transition-all duration-300 max-w-sm">

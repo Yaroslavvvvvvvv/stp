@@ -138,6 +138,27 @@ const routes = [
         name: 'student second period',
         component: () => import('./views/kits/student_basic_training/StudentSecondPeriod.vue')
     },
+    {
+        path: '/student_day_first_program',
+        name: 'student day first program',
+        component: () => import('./views/kits/student_basic_training/student_basic_program/StudentDayFirstProgram.vue')
+    },
+    {
+        path: '/student_day_second_program',
+        name: 'student day second program',
+        component: () => import('./views/kits/student_basic_training/student_basic_program/StudentDaySecondProgram.vue')
+    },
+    {
+        path: '/student_third_period',
+        name: 'student third period',
+        component: () => import('./views/kits/student_basic_training/StudentThirdPeriod.vue')
+    },
+    {
+        path: '/student_fourth_period',
+        name: 'student fourth period',
+        component: () => import('./views/kits/student_basic_training/StudentFourthPeriod.vue')
+    },
+
     //Adept
     {
         path: '/adept_kits',
