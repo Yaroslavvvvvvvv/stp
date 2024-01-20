@@ -118,7 +118,26 @@ const routes = [
         name: 'third student warm program',
         component: () => import('./views/kits/student_basic_training/student_basic_program/ThirdStudentWarmProgram.vue')
     },
-
+    {
+        path: '/student_first_period',
+        name: 'student first period',
+        component: () => import('./views/kits/student_basic_training/StudentFirstPeriod.vue')
+    },
+    {
+        path: '/student_first_day_program',
+        name: 'student first day program',
+        component: () => import('./views/kits/student_basic_training/student_basic_program/StudentFirstDayProgram.vue')
+    },
+    {
+        path: '/student_second_day_program',
+        name: 'student second day program',
+        component: () => import('./views/kits/student_basic_training/student_basic_program/StudentSecondDayProgram.vue')
+    },
+    {
+        path: '/student_second_period',
+        name: 'student second period',
+        component: () => import('./views/kits/student_basic_training/StudentSecondPeriod.vue')
+    },
     //Adept
     {
         path: '/adept_kits',
