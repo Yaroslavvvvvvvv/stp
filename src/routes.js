@@ -134,6 +134,11 @@ const routes = [
         component: () => import('./views/kits/student_basic_training/student_basic_program/StudentSecondDayProgram.vue')
     },
     {
+        path: '/student_first_full_period',
+        name: 'student first full period',
+        component: () => import('./views/kits/student_full_training/StudentFirstFullPeriod.vue')
+    },
+    {
         path: '/student_second_period',
         name: 'student second period',
         component: () => import('./views/kits/student_basic_training/StudentSecondPeriod.vue')
@@ -147,6 +152,11 @@ const routes = [
         path: '/student_day_second_program',
         name: 'student day second program',
         component: () => import('./views/kits/student_basic_training/student_basic_program/StudentDaySecondProgram.vue')
+    },
+    {
+        path: '/student_second_full_period',
+        name: 'student second full period',
+        component: () => import('./views/kits/student_full_training/StudentSecondFullPeriod.vue')
     },
     {
         path: '/student_third_period',
@@ -169,6 +179,11 @@ const routes = [
         component: () => import('./views/kits/student_basic_training/student_basic_program/ThirdDayStudentProgram.vue')
     },
     {
+        path: '/student_third_full_period',
+        name: 'student third full period',
+        component: () => import('./views/kits/student_full_training/StudentThirdFullPeriod.vue')
+    },
+    {
         path: '/student_fourth_period',
         name: 'student fourth period',
         component: () => import('./views/kits/student_basic_training/StudentFourthPeriod.vue')
@@ -187,6 +202,11 @@ const routes = [
         path: '/third_day_program_student',
         name: 'third day program student',
         component: () => import('./views/kits/student_basic_training/student_basic_program/ThirdDayProgramStudent.vue')
+    },
+    {
+        path: '/student_fourth_full_period',
+        name: 'student fourth full period',
+        component: () => import('./views/kits/student_full_training/StudentFourthFullPeriod.vue')
     },
 
     //Adept
