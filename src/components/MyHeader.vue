@@ -1,6 +1,6 @@
 <template>
   <header class="bg-black">
-    <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+    <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8 animate-fade-down animate-duration-1000" aria-label="Global">
       <div class="flex lg:flex-1">
         <router-link to="/" class="-m-1.5 p-1.5">
           <span class="sr-only">Your Company</span>
@@ -14,17 +14,16 @@
         </button>
       </div>
       <PopoverGroup class="hidden lg:flex lg:gap-x-12">
-        <router-link to="/levels" class="text-sm font-semibold leading-6 text-gray-200">Тренування</router-link>
-        <a href="#" class="text-sm font-semibold leading-6 text-gray-200">Marketplace</a>
-        <a href="#" class="text-sm font-semibold leading-6 text-gray-200">Company</a>
+        <router-link to="/levels" class="text-lg font-extrabold leading-6 text-gray-300 hover:text-white">Тренування</router-link>
+        <a href="#" class="text-lg font-extrabold leading-6 text-gray-300 hover:text-white">Marketplace</a>
+        <a href="#" class="text-lg font-extrabold leading-6 text-gray-300 hover:text-white">Company</a>
       </PopoverGroup>
-      <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-        <a href="#" class="text-sm font-semibold leading-6 text-gray-200">Log in <span aria-hidden="true">&rarr;</span></a>
-      </div>
     </nav>
     <Dialog as="div" class="lg:hidden" @close="mobileMenuOpen = false" :open="mobileMenuOpen">
       <div class="fixed inset-0 z-10" />
-      <DialogPanel class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-black px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+      <DialogPanel
+          @click="mobileMenuOpen = false"
+          class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-black px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
         <div class="flex items-center justify-between">
           <router-link to="/" class="-m-1.5 p-1.5">
             <span class="sr-only">Your Company</span>
@@ -38,12 +37,9 @@
         <div class="mt-6 flow-root">
           <div class="-my-6 divide-y divide-gray-500/10">
             <div class="space-y-2 py-6">
-              <router-link to="/levels" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white">Тренування</router-link>
-              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white">Marketplace</a>
-              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white">Company</a>
-            </div>
-            <div class="py-6">
-              <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-white">Log in</a>
+              <router-link to="/levels" class="-mx-3 block rounded-lg px-3 py-2 text-lg font-extrabold leading-7 text-gray-300 hover:text-white">Тренування</router-link>
+              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-lg font-extrabold leading-7 text-gray-300 hover:text-white">Marketplace</a>
+              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-lg font-extrabold leading-7 text-gray-300 hover:text-white">Company</a>
             </div>
           </div>
         </div>
