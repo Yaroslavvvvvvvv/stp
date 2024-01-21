@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-slate-200">
+  <div class="bg-gray-200">
     <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8 animate-fade-down animate-duration-1000">
       <h2 class="text-2xl font-bold xl:text-4xl xl:font-extrabold lg:text-4xl lg:font-extrabold md:text-4xl
       md:font-extrabold sm:text-4xl sm:font-extrabold tracking-tight text-gray-950 text-center">
@@ -19,7 +19,7 @@
               <h3 class="text-3xl font-extrabold text-center" :class="product.color">
                 {{ product.name }}
               </h3>
-              <p class="mt-2 text-sm font-extrabold text-gray-950">{{ product.info }}</p>
+              <p class="mt-2 text-md font-extrabold text-gray-950">{{ product.info }}</p>
             </div>
           </div>
         </div>
