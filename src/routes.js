@@ -204,6 +204,24 @@ const routes = [
         component: () => import('./views/kits/student_full_training/StudentThirdFullPeriod.vue')
     },
     {
+        path: '/first_day_full_student_program',
+        name: 'first day full student program',
+        component: () => import('./views/kits/student_full_training/student_full_program/FirstDayFullStudentProgram.vue')
+    },
+    {
+        path: '/second_day_full_student_program',
+        name: 'second day full student program',
+        component: () => import('./views/kits/student_full_training/student_full_program/SecondDayFullStudentProgram.vue')
+    },
+    {
+        path: '/third_day_full_student_program',
+        name: 'third day full student program',
+        component: () => import('./views/kits/student_full_training/student_full_program/ThirdDayFullStudentProgram.vue')
+    },
+
+
+
+    {
         path: '/student_fourth_period',
         name: 'student fourth period',
         component: () => import('./views/kits/student_basic_training/StudentFourthPeriod.vue')
@@ -227,6 +245,21 @@ const routes = [
         path: '/student_fourth_full_period',
         name: 'student fourth full period',
         component: () => import('./views/kits/student_full_training/StudentFourthFullPeriod.vue')
+    },
+    {
+        path: '/first_day_full_program_student',
+        name: 'first day full program student',
+        component: () => import('./views/kits/student_full_training/student_full_program/FirstDayFullProgramStudent.vue')
+    },
+    {
+        path: '/second_day_full_program_student',
+        name: 'second day full program student',
+        component: () => import('./views/kits/student_full_training/student_full_program/SecondDayFullProgramStudent.vue')
+    },
+    {
+        path: '/third_day_full_program_student',
+        name: 'third day full program student',
+        component: () => import('./views/kits/student_full_training/student_full_program/ThirdDayFullProgramStudent.vue')
     },
 
     //Adept
