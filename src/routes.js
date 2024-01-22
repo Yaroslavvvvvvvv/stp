@@ -262,6 +262,7 @@ const routes = [
         component: () => import('./views/kits/student_full_training/student_full_program/ThirdDayFullProgramStudent.vue')
     },
 
+
     //Adept
     {
         path: '/adept_kits',
