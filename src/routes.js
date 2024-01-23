@@ -269,6 +269,22 @@ const routes = [
         name: 'adept kits',
         component: () => import('./views/kits/AdeptKits.vue')
     },
+    //Adept Warm
+    {
+        path: '/adept_warm',
+        name: 'adept warm',
+        component: () => import('./views/kits/adept_basic_training/AdeptWarm.vue')
+    },
+    {
+        path: '/first_day_adept_warm_program',
+        name: 'first day adept warm program',
+        component: () => import('./views/kits/adept_basic_training/adept_basic_warm_training/FirstDayAdeptWarmProgram.vue')
+    },
+    {
+        path: '/second_day_adept_warm_program',
+        name: 'second day adept warm program',
+        component: () => import('./views/kits/adept_basic_training/adept_basic_warm_training/SecondDayAdeptWarmProgram.vue')
+    },
     //Expert
     {
         path: '/expert_kits',
