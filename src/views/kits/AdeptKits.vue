@@ -51,7 +51,7 @@ const selectedSet = ref('basic');
         <h2 class="text-3xl font-extrabold">Період 1 (10-16 днів)</h2>
       </div>
     </router-link>
-    <router-link to="/student_second_period">
+    <router-link to="/adept_second_period">
       <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-amber-500 text-white">
         <h2 class="text-3xl font-extrabold">Період 2 (14-17 днів)</h2>
       </div>
@@ -83,7 +83,7 @@ const selectedSet = ref('basic');
         <h2 class="text-3xl font-extrabold">Період 1 (13-16 днів)</h2>
       </div>
     </router-link>
-    <router-link to="/student_second_full_period">
+    <router-link to="/adept_second_full_period">
       <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-orange-500 text-white">
         <h2 class="text-3xl font-extrabold">Період 2 (14-17 днів)</h2>
       </div>
