@@ -428,6 +428,47 @@ const routes = [
         name: 'third day adept full program',
         component: () => import('./views/kits/adept_full_training/adept_full_program/ThirdDayAdeptFullProgram.vue')
     },
+    //Adept Fourth Period
+    {
+        path: '/adept_fourth_period',
+        name: 'adept fourth period',
+        component: () => import('./views/kits/adept_basic_training/AdeptFourthPeriod.vue')
+    },
+    {
+        path: '/first_day_program_adept',
+        name: 'first day program adept',
+        component: () => import('./views/kits/adept_basic_training/adept_basic_program/FirstDayProgramAdept.vue')
+    },
+    {
+        path: '/second_day_program_adept',
+        name: 'second day program adept',
+        component: () => import('./views/kits/adept_basic_training/adept_basic_program/SecondDayProgramAdept.vue')
+    },
+    {
+        path: '/third_day_program_adept',
+        name: 'third day program adept',
+        component: () => import('./views/kits/adept_basic_training/adept_basic_program/ThirdDayProgramAdept.vue')
+    },
+    {
+        path: '/adept_fourth_full_period',
+        name: 'adept fourth full period',
+        component: () => import('./views/kits/adept_full_training/AdeptFourthFullPeriod.vue')
+    },
+    {
+        path: '/first_day_full_program_adept',
+        name: 'first day full program adept',
+        component: () => import('./views/kits/adept_full_training/adept_full_program/FirstDayFullProgramAdept.vue')
+    },
+    {
+        path: '/second_day_full_program_adept',
+        name: 'second day full program adept',
+        component: () => import('./views/kits/adept_full_training/adept_full_program/SecondDayFullProgramAdept.vue')
+    },
+    {
+        path: '/third_day_full_program_adept',
+        name: 'third day full program adept',
+        component: () => import('./views/kits/adept_full_training/adept_full_program/ThirdDayFullProgramAdept.vue')
+    },
     //Expert
     {
         path: '/expert_kits',
