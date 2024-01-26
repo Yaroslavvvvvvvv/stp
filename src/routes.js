@@ -469,6 +469,52 @@ const routes = [
         name: 'third day full program adept',
         component: () => import('./views/kits/adept_full_training/adept_full_program/ThirdDayFullProgramAdept.vue')
     },
+    //Adept Fifth Period
+    {
+        path: '/adept_fifth_period',
+        name: 'adept fourth period',
+        component: () => import('./views/kits/adept_basic_training/AdeptFifthPeriod.vue')
+    },
+    {
+        path: '/program_adept_first_day',
+        name: 'program adept first day',
+        component: () => import('./views/kits/adept_basic_training/adept_basic_program/ProgramAdeptFirstDay.vue')
+    },
+    {
+        path: '/program_adept_second_day',
+        name: 'program adept second day',
+        component: () => import('./views/kits/adept_basic_training/adept_basic_program/ProgramAdeptSecondDay.vue')
+    },
+    {
+        path: '/program_adept_third_day',
+        name: 'program adept third day',
+        component: () => import('./views/kits/adept_basic_training/adept_basic_program/ProgramAdeptThirdDay.vue')
+    },
+    {
+        path: '/adept_fifth_full_period',
+        name: 'adept fourth full period',
+        component: () => import('./views/kits/adept_full_training/AdeptFifthFullPeriod.vue')
+    },
+    {
+        path: '/full_program_adept_first_day',
+        name: 'full program adept first day',
+        component: () => import('./views/kits/adept_full_training/adept_full_program/FullProgramAdeptFirstDay.vue')
+    },
+    {
+        path: '/full_program_adept_second_day',
+        name: 'full program adept second day',
+        component: () => import('./views/kits/adept_full_training/adept_full_program/FullProgramAdeptSecondDay.vue')
+    },
+    {
+        path: '/full_program_adept_third_day',
+        name: 'full program adept third day',
+        component: () => import('./views/kits/adept_full_training/adept_full_program/FullProgramAdeptThirdDay.vue')
+    },
+    {
+        path: '/full_program_adept_fourth_day',
+        name: 'full program adept fourth day',
+        component: () => import('./views/kits/adept_full_training/adept_full_program/FullProgramAdeptFourthDay.vue')
+    },
     //Expert
     {
         path: '/expert_kits',

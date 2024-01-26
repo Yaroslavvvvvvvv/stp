@@ -11,7 +11,7 @@
       </button>
     </router-link>
     <div>
-      <h2 class="text-center text-3xl font-bold text-orange-600">Період 4 (11-14 днів)</h2>
+      <h2 class="text-center text-3xl font-bold text-orange-700">Період 4 (11-14 днів)</h2>
     </div>
     <div class="border-l-2 mt-10">
       <!-- Card 1 -->

@@ -11,14 +11,14 @@
       </button>
     </router-link>
     <div>
-      <h2 class="text-center text-3xl font-bold text-amber-700">Період 4 (9-11 днів)</h2>
+      <h2 class="text-center text-3xl font-bold text-amber-800">Період 5 (8-10 днів)</h2>
     </div>
     <div class="border-l-2 mt-10">
       <!-- Card 1 -->
-      <router-link to="/first_day_program_adept">
-        <div class="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 py-4 bg-amber-700 text-white rounded mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
+      <router-link to="/program_adept_first_day">
+        <div class="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 py-4 bg-amber-800 text-white rounded mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
           <!-- Dot Follwing the Left Vertical Line -->
-          <div class="w-5 h-5 bg-amber-700 absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-2 md:mt-0"></div>
+          <div class="w-5 h-5 bg-amber-800 absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-2 md:mt-0"></div>
           <!-- Line that connecting the box with the vertical line -->
           <div class="w-10 h-1 bg-amber-300 absolute -left-10 z-0"></div>
           <!-- Content that showing in the box -->
@@ -27,10 +27,10 @@
           </div>
         </div>
       </router-link>
-      <router-link to="/second_day_program_adept">
-        <div class="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 py-4 bg-amber-700 text-white rounded mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
+      <router-link to="/program_adept_second_day">
+        <div class="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 py-4 bg-amber-800 text-white rounded mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
           <!-- Dot Follwing the Left Vertical Line -->
-          <div class="w-5 h-5 bg-amber-700 absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-2 md:mt-0"></div>
+          <div class="w-5 h-5 bg-amber-800 absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-2 md:mt-0"></div>
           <!-- Line that connecting the box with the vertical line -->
           <div class="w-10 h-1 bg-amber-300 absolute -left-10 z-0"></div>
           <!-- Content that showing in the box -->
@@ -39,10 +39,10 @@
           </div>
         </div>
       </router-link>
-      <router-link to="/third_day_program_adept">
-        <div class="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 py-4 bg-amber-700 text-white rounded mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
+      <router-link to="/program_adept_third_day">
+        <div class="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 py-4 bg-amber-800 text-white rounded mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
           <!-- Dot Follwing the Left Vertical Line -->
-          <div class="w-5 h-5 bg-amber-700 absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-2 md:mt-0"></div>
+          <div class="w-5 h-5 bg-amber-800 absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-2 md:mt-0"></div>
           <!-- Line that connecting the box with the vertical line -->
           <div class="w-10 h-1 bg-amber-300 absolute -left-10 z-0"></div>
           <!-- Content that showing in the box -->
