@@ -515,6 +515,27 @@ const routes = [
         name: 'full program adept fourth day',
         component: () => import('./views/kits/adept_full_training/adept_full_program/FullProgramAdeptFourthDay.vue')
     },
+    //Adept Sixth Period
+    {
+        path: '/adept_sixth_full_period',
+        name: 'adept sixth full period',
+        component: () => import('./views/kits/adept_full_training/AdeptSixthFullPeriod.vue')
+    },
+    {
+        path: '/adept_sixth_full_first',
+        name: 'adept sixth full first',
+        component: () => import('./views/kits/adept_full_training/adept_full_program/AdeptSixthFullFirst.vue')
+    },
+    {
+        path: '/adept_sixth_full_second',
+        name: 'adept sixth full second',
+        component: () => import('./views/kits/adept_full_training/adept_full_program/AdeptSixthFullSecond.vue')
+    },
+    {
+        path: '/adept_sixth_full_third',
+        name: 'adept sixth full third',
+        component: () => import('./views/kits/adept_full_training/adept_full_program/AdeptSixthFullThird.vue')
+    },
     //Expert
     {
         path: '/expert_kits',

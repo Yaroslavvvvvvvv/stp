@@ -103,7 +103,7 @@ const selectedSet = ref('basic');
         <h2 class="text-3xl font-extrabold">Період 5 (10-13 днів)</h2>
       </div>
     </router-link>
-    <router-link to="/student_fourth_full_period">
+    <router-link to="/adept_sixth_full_period">
       <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-orange-900 text-white">
         <h2 class="text-3xl font-extrabold">Період 6</h2>
         <h2 class="text-2xl font-extrabold m-2">(В залежності від рішення по першому дню, але не більше 17 днів)</h2>
