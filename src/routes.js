@@ -542,6 +542,48 @@ const routes = [
         name: 'expert kits',
         component: () => import('./views/kits/ExpertKits.vue')
     },
+    //Expert Warm
+    {
+        path: '/expert_warm',
+        name: 'expert warm',
+        component: () => import('./views/kits/expert_basic_training/ExpertWarm.vue')
+    },
+    {
+        path: '/first_day_expert_warm_program',
+        name: 'first day expert warm program',
+        component: () => import('./views/kits/expert_basic_training/expert_basic_warm_training/FirstDayExpertWarmProgram.vue')
+    },
+    {
+        path: '/second_day_expert_warm_program',
+        name: 'second day expert warm program',
+        component: () => import('./views/kits/expert_basic_training/expert_basic_warm_training/SecondDayExpertWarmProgram.vue')
+    },
+    {
+        path: '/third_day_expert_warm_program',
+        name: 'third day expert warm program',
+        component: () => import('./views/kits/expert_basic_training/expert_basic_warm_training/ThirdDayExpertWarmProgram.vue')
+    },
+    {
+        path: '/expert_full_warm',
+        name: 'expert full warm',
+        component: () => import('./views/kits/expert_full_training/ExpertFullWarm.vue')
+    },
+    {
+        path: '/first_day_expert_full_warm_program',
+        name: 'first day expert full warm program',
+        component: () => import('./views/kits/expert_full_training/expert_full_warm_training/FirstDayExpertFullWarmProgram.vue')
+    },
+    {
+        path: '/second_day_expert_full_warm_program',
+        name: 'second day expert full warm program',
+        component: () => import('./views/kits/expert_full_training/expert_full_warm_training/SecondDayExpertFullWarmProgram.vue')
+    },
+    {
+        path: '/third_day_expert_full_warm_program',
+        name: 'third day expert full warm program',
+        component: () => import('./views/kits/expert_full_training/expert_full_warm_training/ThirdDayExpertFullWarmProgram.vue')
+    },
+    //Expert First Period
 ];
 
 const router = createRouter({
