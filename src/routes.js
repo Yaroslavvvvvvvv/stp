@@ -584,6 +584,51 @@ const routes = [
         component: () => import('./views/kits/expert_full_training/expert_full_warm_training/ThirdDayExpertFullWarmProgram.vue')
     },
     //Expert First Period
+    {
+        path: '/expert_first_period',
+        name: 'expert first period',
+        component: () => import('./views/kits/expert_basic_training/ExpertFirstPeriod.vue')
+    },
+    {
+        path: '/expert_first_day_program',
+        name: 'expert first day program',
+        component: () => import('./views/kits/expert_basic_training/expert_basic_program/ExpertFirstDayProgram.vue')
+    },
+    {
+        path: '/expert_second_day_program',
+        name: 'expert second day program',
+        component: () => import('./views/kits/expert_basic_training/expert_basic_program/ExpertSecondDayProgram.vue')
+    },
+    {
+        path: '/expert_third_day_program',
+        name: 'expert third day program',
+        component: () => import('./views/kits/expert_basic_training/expert_basic_program/ExpertThirdDayProgram.vue')
+    },
+    {
+        path: '/expert_fourth_day_program',
+        name: 'expert fourth day program',
+        component: () => import('./views/kits/expert_basic_training/expert_basic_program/ExpertFourthDayProgram.vue')
+    },
+    {
+        path: '/expert_first_full_period',
+        name: 'expert first full period',
+        component: () => import('./views/kits/expert_full_training/ExpertFirstFullPeriod.vue')
+    },
+    {
+        path: '/expert_first_full_day_program',
+        name: 'expert first full day program',
+        component: () => import('./views/kits/expert_full_training/expert_full_program/ExpertFirstFullDayProgram.vue')
+    },
+    {
+        path: '/expert_second_full_day_program',
+        name: 'expert second full day program',
+        component: () => import('./views/kits/expert_full_training/expert_full_program/ExpertSecondFullDayProgram.vue')
+    },
+    {
+        path: '/expert_third_full_day_program',
+        name: 'expert third full day program',
+        component: () => import('./views/kits/expert_full_training/expert_full_program/ExpertThirdFullDayProgram.vue')
+    },
 ];
 
 const router = createRouter({
