@@ -51,33 +51,33 @@ const selectedSet = ref('basic');
         <h2 class="text-3xl font-extrabold">Період 1 (13-16 днів)</h2>
       </div>
     </router-link>
-    <router-link to="/adept_second_period">
+    <router-link to="/expert_second_period">
       <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-red-500 text-white">
         <h2 class="text-3xl font-extrabold">Період 2 (12-15 днів)</h2>
       </div>
     </router-link>
-    <router-link to="/adept_third_period">
+    <router-link to="/expert_third_period">
       <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-red-600 text-white">
         <h2 class="text-3xl font-extrabold">Період 3 (10-12 днів)</h2>
       </div>
     </router-link>
-    <router-link to="/adept_fourth_period">
+    <router-link to="/expert_fourth_period">
       <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-red-700 text-white">
         <h2 class="text-3xl font-extrabold">Період 4 (12-14 днів)</h2>
       </div>
     </router-link>
-    <router-link to="/adept_fifth_period">
+    <router-link to="/expert_fifth_period">
       <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-red-800 text-white">
         <h2 class="text-3xl font-extrabold">Період 5 (8-11 днів)</h2>
       </div>
     </router-link>
-    <router-link to="/adept_sixth_period">
+    <router-link to="/expert_sixth_period">
       <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-red-900 text-white">
         <h2 class="text-3xl font-extrabold">Період 6</h2>
         <h2 class="text-xl font-extrabold m-2">(Залежно від числа дублювань)</h2>
       </div>
     </router-link>
-    <router-link to="/adept_seventh_period">
+    <router-link to="/expert_seventh_period">
       <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-red-950 text-white">
         <h2 class="text-3xl font-extrabold">Період 7 (6-8 днів)</h2>
       </div>
@@ -94,33 +94,33 @@ const selectedSet = ref('basic');
         <h2 class="text-3xl font-extrabold">Період 1 (10-14 днів)</h2>
       </div>
     </router-link>
-    <router-link to="/adept_second_full_period">
+    <router-link to="/expert_second_full_period">
       <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-violet-500 text-white">
         <h2 class="text-3xl font-extrabold">Період 2 (13-16 днів)</h2>
       </div>
     </router-link>
-    <router-link to="/adept_third_full_period">
+    <router-link to="/expert_third_full_period">
       <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-violet-600 text-white">
         <h2 class="text-3xl font-extrabold">Період 3 (6-8 днів)</h2>
       </div>
     </router-link>
-    <router-link to="/adept_fourth_full_period">
+    <router-link to="/expert_fourth_full_period">
       <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-violet-700 text-white">
         <h2 class="text-3xl font-extrabold">Період 4 (11-13 днів)</h2>
       </div>
     </router-link>
-    <router-link to="/adept_fifth_full_period">
+    <router-link to="/expert_fifth_full_period">
       <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-violet-800 text-white">
         <h2 class="text-3xl font-extrabold">Період 5 (5-7 днів)</h2>
       </div>
     </router-link>
-    <router-link to="/adept_sixth_full_period">
+    <router-link to="/expert_sixth_full_period">
       <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-violet-900 text-white">
         <h2 class="text-3xl font-extrabold">Період 6 (13-16 днів)</h2>
         <h2 class="text-2xl font-extrabold m-2">(В залежності від рішення по першому дню, але не більше 17 днів)</h2>
       </div>
     </router-link>
-    <router-link to="/adept_fourth_full_period">
+    <router-link to="/expert_fourth_full_period">
       <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-violet-950 text-white">
         <h2 class="text-3xl font-extrabold">Період 7 (13-16 днів)</h2>
       </div>
