@@ -799,6 +799,68 @@ const routes = [
         name: 'full program expert second day',
         component: () => import('./views/kits/expert_full_training/expert_full_program/FullProgramExpertSecondDay.vue')
     },
+    //Expert Sixth Period
+    {
+        path: '/expert_sixth_period',
+        name: 'expert sixth period',
+        component: () => import('./views/kits/expert_basic_training/ExpertSixthPeriod.vue')
+    },
+    {
+        path: '/expert_sixth_first',
+        name: 'expert sixth first',
+        component: () => import('./views/kits/expert_basic_training/expert_basic_program/ExpertSixthFirst.vue')
+    },
+    {
+        path: '/expert_sixth_full_period',
+        name: 'expert sixth full period',
+        component: () => import('./views/kits/expert_full_training/ExpertSixthFullPeriod.vue')
+    },
+    {
+        path: '/expert_sixth_full_first',
+        name: 'expert sixth full first',
+        component: () => import('./views/kits/expert_full_training/expert_full_program/ExpertSixthFullFirst.vue')
+    },
+    //Expert Seventh Period
+    {
+        path: '/expert_seventh_period',
+        name: 'expert seventh period',
+        component: () => import('./views/kits/expert_basic_training/ExpertSeventhPeriod.vue')
+    },
+    {
+        path: '/expert_seventh_first',
+        name: 'expert seventh first',
+        component: () => import('./views/kits/expert_basic_training/expert_basic_program/ExpertSeventhFirst.vue')
+    },
+    {
+        path: '/expert_seventh_second',
+        name: 'expert seventh second',
+        component: () => import('./views/kits/expert_basic_training/expert_basic_program/ExpertSeventhSecond.vue')
+    },
+    {
+        path: '/expert_seventh_full_period',
+        name: 'expert seventh full period',
+        component: () => import('./views/kits/expert_full_training/ExpertSeventhFullPeriod.vue')
+    },
+    {
+        path: '/expert_seventh_full_first',
+        name: 'expert seventh full first',
+        component: () => import('./views/kits/expert_full_training/expert_full_program/ExpertSeventhFullFirst.vue')
+    },
+    {
+        path: '/expert_seventh_full_second',
+        name: 'expert seventh full second',
+        component: () => import('./views/kits/expert_full_training/expert_full_program/ExpertSeventhFullSecond.vue')
+    },
+    {
+        path: '/expert_seventh_full_third',
+        name: 'expert seventh full third',
+        component: () => import('./views/kits/expert_full_training/expert_full_program/ExpertSeventhFullThird.vue')
+    },
+    {
+        path: '/expert_seventh_full_fourth',
+        name: 'expert seventh full fourth',
+        component: () => import('./views/kits/expert_full_training/expert_full_program/ExpertSeventhFullFourth.vue')
+    },
 ];
 
 const router = createRouter({
