@@ -19,7 +19,9 @@
               <h3 class="text-3xl font-extrabold text-center" :class="product.color">
                 {{ product.name }}
               </h3>
-              <p class="mt-2 text-md font-extrabold text-gray-950">{{ product.info }}</p>
+              <p class="mt-2 text-md font-extrabold text-gray-950">{{product.pull_up}}</p>
+              <p class="text-md font-extrabold text-gray-950">{{product.push_up}}</p>
+              <p class="mt-2 text-md font-bold text-gray-950">{{ product.info }}</p>
             </div>
           </div>
         </div>
@@ -37,7 +39,10 @@ const products = [
     imageSrc: '/images/levels/beginner_level.webp',
     info: 'Призначений для початкової підготовки та приведення в тонус, людини з практично нульовим рівнем будь-яким ' +
         'силових показників.',
-    color:'text-green-500'
+    color:'text-green-500',
+    pull_up:'Підтягування - 0',
+    push_up:'Віджимання від підлоги - 0'
+
   },
   {
     id: 2,
@@ -45,7 +50,9 @@ const products = [
     to: 'student_kits',
     imageSrc: '/images/levels/student_level.webp',
     info: 'Призначений для початкової підготовки та приведення в тонус, людини, з рівнем підготовки нижче за норму.',
-    color:'text-blue-500'
+    color:'text-blue-500',
+    pull_up:'Підтягування - 5',
+    push_up:'Віджимання від підлоги - 10'
   },
   {
     id: 3,
@@ -53,7 +60,9 @@ const products = [
     to: 'adept_kits',
     imageSrc: '/images/levels/adept_level.webp',
     info: 'Призначений для базової підготовки людини із середньо-загальним рівнем силових показників.',
-    color:'text-yellow-400'
+    color:'text-yellow-400',
+    pull_up:'Підтягування - 8-12',
+    push_up:'Віджимання від підлоги - 20-30'
   },
   {
     id: 4,
@@ -61,7 +70,9 @@ const products = [
     to: 'expert_kits',
     imageSrc: '/images/levels/expert_level.webp',
     info: 'Даний рівень призначений для просунутої підготовки людини, з рівнем силових показників вище середнього.',
-    color:'text-red-600'
+    color:'text-red-600',
+    pull_up:'Підтягування - 14-20',
+    push_up:'Віджимання від підлоги - 35-45'
   },
 ]
 </script>

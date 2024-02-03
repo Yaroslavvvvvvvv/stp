@@ -12,6 +12,9 @@
     </router-link>
     <div>
       <h2 class="text-center text-3xl font-bold text-violet-300">Вступні тренування</h2>
+      <p class="pl-4 font-bold pt-2 text-lg  text-gray-950">
+        - повноцінні тренування, виконуються одноразово перед переходом до основних програм рівня
+      </p>
     </div>
     <div class="border-l-2 mt-10">
       <!-- Card 1 -->

@@ -41,6 +41,8 @@ const selectedSet = ref('basic');
     </label>
   </div>
   <div class="relative animate-fade-down animate-duration-1000" v-if="selectedSet === 'basic'">
+    <p class="text-center bg-gray-200 text-gray-950 font-extrabold text-md p-2">
+      Варіант програм тренувань, які передбачають наявність лише основного обладнання, а саме турніку та брусів</p>
     <router-link to="/beginner_warm">
       <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-emerald-400 text-white">
         <h2 class="text-3xl font-extrabold">Вступні тренування</h2>
@@ -58,6 +60,8 @@ const selectedSet = ref('basic');
     </router-link>
   </div>
   <div class="relative animate-fade-down animate-duration-1000" v-if="selectedSet === 'full'">
+    <p class="text-center bg-gray-200 text-gray-950 font-extrabold text-md p-2">
+      Варіант програм тренувань, які передбачають наявність більш ширшого переліку обладнання, крім турніка та брусів</p>
     <router-link to="/beginner_warm">
     <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-teal-400 text-white">
       <h2 class="text-3xl font-extrabold">Вступні тренування</h2>
