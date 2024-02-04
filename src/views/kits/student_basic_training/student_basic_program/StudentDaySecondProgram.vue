@@ -1,19 +1,19 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/men_pull_up.webp",
+    image: "/images/wall_push_up.webp",
     description: "Вертикальні віджимання від стіни 10-15 повторів + 8-10 повторів австралійські підтягування. 5 підходів. Чим скоріше, тим краще."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/australian_pull_up.webp",
     description: "Австралійські підтягування до шиї, лікті в сторони 5-10 повторів 5 підходів."
   },
   {
-    image: "/images/girl_squat.webp",
+    image: "/images/wall_push_up.webp",
     description: "Вертикальні віджимання в одній динаміці. 3 підходи."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/second_run_man.webp",
     description: "Кардіо навантаження 30 хвилин."
   }
 ];

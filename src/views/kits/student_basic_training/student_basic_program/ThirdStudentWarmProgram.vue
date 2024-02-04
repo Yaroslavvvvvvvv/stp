@@ -1,7 +1,7 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/men_pull_up.webp",
+    image: "/images/girl_push_up.webp",
     description: "Emom. 3 віджимання від підлоги. Кожен новий підхід + 2 повтори. За два кроки до максимального підходу зупинитися."
   },
   {
@@ -9,7 +9,7 @@ const exercises = [
     description: "Австралійські підтягування 2-4 повтори кожні 20 секунд. Тотал 20-40."
   },
   {
-    image: "/images/men_pull_up.webp",
+    image: "/images/girl_squat.webp",
     description: "Emom. Присідання 3-6 повторів. Кожен новий підхід +2-3. За два кроки до максимального підходу зупинитися."
   },
   {
@@ -25,7 +25,7 @@ const exercises = [
     description: "Австралійські підтягування тотал 8-30."
   },
   {
-    image: "/images/men_pull_up.webp",
+    image: "/images/wall_push_up.webp",
     description: "Вертикальні віджимання в динаміці 10 повторів. 3 підходи, відпочинок 30/60/80 секунд."
   },
 ];

@@ -1,20 +1,20 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "3-6 підтягування стоячи ногами на землі + 2-4 австралійських + 1 звичайне (кожне коло змінюємо всі " +
         "хвати з верхнього на нижній та навпаки)."
   },
   {
-    image: "/images/girl_squat.webp",
+    image: "/images/men_deeps.webp",
     description: "2 віджимання на брусах + 4 віджимання від підлоги + 4 віджимання від підлоги з колін."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/girl_lunges.webp",
     description: "5 випадів назад на кожну ногу + 5 присідань."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/second_run_man.webp",
     description: "40 хвилин кругової довільної роботи у своєму темпі в минулих пунктах, далі легка кардіо заминка не більше 30 хвилин."
   },
 ];

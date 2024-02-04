@@ -1,15 +1,15 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування стоячи ногами землі в одній динаміці. Відпочинок 90 секунд. 10 підходів."
   },
   {
-    image: "/images/girl_squat.webp",
+    image: "/images/boy_push_up.webp",
     description: "Віджимання від підлоги з колін в одній динаміці. Відпочинок 90 секунд. 10 підходів."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/girl_squat.webp",
     description: "Присідання Emom з 5+4."
   },
 ];

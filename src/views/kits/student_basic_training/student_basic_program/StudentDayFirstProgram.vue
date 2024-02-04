@@ -1,31 +1,31 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/australian_pull_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування в одній динаміці 2-4 підходи."
   },
   {
-    image: "/images/girl_squat.webp",
+    image: "/images/men_deeps.webp",
     description: "Віджимання на брусах в одній динаміці 2-4 підходи."
   },
   {
-    image: "/images/man_swing.webp",
+    image: "/images/repeat.webp",
     description: "Теж що і пункт 1-2, суперсестом і в стилі тотал. Цифри 60-80% від загальної суми повторень, що вийшли у початкових динамічних підходах."
   },
   {
-    image: "/images/girl_twisting.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування стоячи ногами на землі на максимум + віджимання від підлоги в одній динаміці + віджимання від підлоги з колін в одній динаміці. 4 підходи."
   },
   {
-    image: "/images/second_run_man.webp",
+    image: "/images/girl_push_up.webp",
     description: "Насос тотал 60-80."
   },
   {
-    image: "/images/second_run_man.webp",
+    image: "/images/girl_twisting.webp",
     description: "Скручування на прес на підлозі тотал 50."
   },
   {
-    image: "/images/second_run_man.webp",
+    image: "/images/squats_with_dumbbells.webp",
     description: "З двома гантелями або іншою вагою в 3-5 кг, 1 присідання + 2 жиму над головою. Або 2 вертикальні віджимання + 2 присідання. Тотал 60."
   },
 ];

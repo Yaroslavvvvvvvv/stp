@@ -1,20 +1,20 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_deeps.webp",
     description: "Віджимання на брусах 2 + підтягування стоячи ногами на землі та одразу ж австралійські. Кожен новий підхід +2/1."
   },
   {
-    image: "/images/girl_squat.webp",
+    image: "/images/australian_pull_up.webp",
     description: "Австралійські підтягування 12 повторів + віджимання від підлоги 12 повторів. 10/10-8/8-6/6-4/4."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/steam_press.webp",
     description: "Насос + скручування на прес. Кожен підхід + 2 повтори, починаємо з 5 повторів. Відпочинок 15 секунд. " +
         "Кожний новий підхід відпочинок + 5 секунд. До максимуму, темп виконання середній."
   },
   {
-    image: "/images/repeat.webp",
+    image: "/images/wall_push_up.webp",
     description: "Вертикальні віджимання в динаміці 3 підходи. Відпочинок не більше хвилини."
   }
 ];

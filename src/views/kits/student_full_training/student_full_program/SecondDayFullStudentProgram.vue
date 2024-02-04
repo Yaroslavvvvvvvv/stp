@@ -1,23 +1,23 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Відпочинок 60 секунд. Підтягування з гумою 2-4 повтор. Кожен новий +1."
   },
   {
-    image: "/images/girl_squat.webp",
+    image: "/images/boy_push_up.webp",
     description: "Те саме на віджимання від підлоги."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/repeat.webp",
     description: "Повторення цих пунктів."
   },
   {
-    image: "/images/repeat.webp",
+    image: "/images/girl_squat.webp",
     description: "Тотал 30-50 присідань."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/repeat.webp",
     description: "(Опціально). Повторення всіх пунктів крім третього."
   },
 ];

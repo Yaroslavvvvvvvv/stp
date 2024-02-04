@@ -1,26 +1,26 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування стоячи ногами на землі + віджимання від підлоги. Загальний збірний тотал 50-80. Сильне " +
         "дроблення. Довгий відпочинок."
   },
   {
-    image: "/images/girl_squat.webp",
+    image: "/images/australian_pull_up.webp",
     description: "Австралійські підтягування + віджимання від підлоги з колін. Загальний збірний тотал 50-80. Сильне " +
         "дроблення. Довгий відпочинок."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/vertical_thrust.webp",
     description: "Вертикальна тяга гуми + віджимання від підлоги. Загальний збірний тотал 60-120. Сильне дроблення. " +
         "Довгий відпочинок."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/girl_squat.webp",
     description: "1 присідання. Відпочинок 3-5 секунд. Тотал 10-20. 3-5 підходів."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/girl_twisting.webp",
     description: "Скручування на прес 10 повторів. Відпочинок 20 секунд. Планка 10 секунд. 2-4 підходи."
   },
 ];

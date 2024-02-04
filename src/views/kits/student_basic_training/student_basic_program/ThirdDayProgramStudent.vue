@@ -1,24 +1,23 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_deeps.webp",
     description: "Віджимання на брусах у динаміці."
   },
   {
-    image: "/images/girl_squat.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування у динаміці."
   },
   {
-    image: "/images/girl_deadlift.webp",
-    description: "Минулий пункт чергуємо, відпочинок рівно 1 хвилина. 5 кіл."
+    image: "/images/repeat.webp",
+    description: "Минулі пункти чергуємо, відпочинок рівно 1 хвилина. 5 кіл."
   },
   {
-    image: "/images/repeat.webp",
-    description: "\n" +
-        "Австралійські підтягування з нижнього хвата підконтрольні на максимум. 4 підходи."
+    image: "/images/australian_pull_up.webp",
+    description: "Австралійські підтягування з нижнього хвата підконтрольні на максимум + вертикальні віджимання на максимум. 4 підходи."
   },
   {
-    image: "/images/repeat.webp",
+    image: "/images/girl_squat.webp",
     description: "Присідання на максимум. 4 підходи. Відпочинок збільшуємо на 30 секунд кожен підхід. Перший відпочинок 60 секунд."
   }
 ];

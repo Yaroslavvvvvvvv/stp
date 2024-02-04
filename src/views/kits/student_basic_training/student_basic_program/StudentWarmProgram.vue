@@ -5,21 +5,21 @@ const exercises = [
     description: "3-5 віджимань від підлоги + 1-3 підтягування + 5-8 присідань з підйомом на носки. 10 хвилин роботи."
   },
   {
-    image: "/images/australian_pull_up.webp",
+    image: "/images/girl_push_up.webp",
     description: "4-6 віджимань від підлоги з колін + 2-5 підтягувань стоячи ногами на землі + 25 джампінг джеків або " +
         "50 стрибків на скакалці + 3-5 присідань з підйомом на носки. 5 хвилин. Відпочинок 1-2 хвилини і ще один " +
         "такий же комплекс, але 4 хвилини і без присідань."
   },
   {
-    image: "/images/men_pull_up.webp",
+    image: "/images/australian_pull_up.webp",
     description: "Австралійські підтягування 2 повтори. Кожен новий підхід +2."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/girl_twisting.webp",
     description: "5-10 скручування на прес на підлозі + насос 5-10 повторів. Безперервний комплекс на максимум."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/wall_push_up.webp",
     description: "Вертикальні віджимання від стіни. 3 підходи в одній динаміці."
   },
 ];

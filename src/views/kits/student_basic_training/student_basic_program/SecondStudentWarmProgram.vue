@@ -1,31 +1,31 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/men_pull_up.webp",
+    image: "/images/wall_push_up.webp",
     description: "Вертикальні віджимання від стіни на максимум. 5 підходів. Відпочинок 1 хвилина."
   },
   {
-    image: "/images/australian_pull_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "1 підтягування + підтягування стоячи ногами на землі в одній динаміці та кожен новий підхід мінус 2 повтори."
   },
   {
-    image: "/images/men_pull_up.webp",
+    image: "/images/girl_push_up.webp",
     description: "Насос 1 повтор + віджимання від підлоги з колін 1 повтор. В одній динаміці."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/girl_squat.webp",
     description: "Присідання 5 повторів + стільчик 10 секунд. 4 підходи."
   },
   {
-    image: "/images/men_pull_up.webp",
+    image: "/images/girl_push_up.webp",
     description: "Віджимання від підлоги в одній динаміці."
   },
   {
-    image: "/images/australian_pull_up.webp",
+    image: "/images/girl_push_up.webp",
     description: "Підйом із ліктів 5-10 повторів + планка 15-30 секунд + 10-20 скручування на прес на підлозі."
   },
   {
-    image: "/images/men_pull_up.webp",
+    image: "/images/woman_jump.webp",
     description: "Насос та стрибки на скакалці 8-14 кіл, відпочинок 20 секунд."
   },
 ];

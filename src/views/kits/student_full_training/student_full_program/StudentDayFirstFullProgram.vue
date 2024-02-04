@@ -1,36 +1,36 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/australian_pull_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування в одній динаміці 2-4 підходи."
   },
   {
-    image: "/images/girl_squat.webp",
+    image: "/images/men_deeps.webp",
     description: "Віджимання на брусах в одній динаміці 2-4 підходи."
   },
   {
-    image: "/images/man_swing.webp",
+    image: "/images/repeat.webp",
     description: "Пункт 1 і 2, але з гумою."
   },
   {
-    image: "/images/girl_twisting.webp",
+    image: "/images/vertical_thrust.webp",
     description: "Вертикальна тяга гуми на кожну руку нон стоп 10/10/6/6 + віджимання від підлоги в одній динаміці + " +
         "віджимання від підлоги з колін в одній динаміці. 2 підходи."
   },
   {
-    image: "/images/girl_twisting.webp",
+    image: "/images/boy_biceps.webp",
     description: "Підйом гуми чи гантелей чи гирі на біцепс + розгинання гуми на трицепс 10-15 повторів. 2-3 підходи."
   },
   {
-    image: "/images/second_run_man.webp",
+    image: "/images/girl_push_up.webp",
     description: "Насос тотал 50-80."
   },
   {
-    image: "/images/second_run_man.webp",
+    image: "/images/girl_twisting.webp",
     description: "Скручування на прес на підлозі тотал 40-60."
   },
   {
-    image: "/images/second_run_man.webp",
+    image: "/images/squats_with_dumbbells.webp",
     description: "З двома гантелями або іншою вагою в 3-5 кг або гумою, 1 присідання + 2 жиму над головою. Тотал 30-60."
   },
 ];

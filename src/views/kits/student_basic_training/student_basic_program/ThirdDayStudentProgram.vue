@@ -1,24 +1,24 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування на максимум."
   },
   {
-    image: "/images/girl_squat.webp",
+    image: "/images/men_deeps.webp",
     description: "Віджимання на брусах або від підлоги на максимум."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/repeat.webp",
     description: "Повторити пункти 1 і 2, кіл 5. Взяти число свого максимуму, що вийшло, як тотал. Цей тотал необхідно " +
         "дробити мінімально."
   },
   {
-    image: "/images/repeat.webp",
+    image: "/images/girl_squat.webp",
     description: "Тотал 30-50 присідань з підйомом на носок."
   },
   {
-    image: "/images/repeat.webp",
+    image: "/images/australian_pull_up.webp",
     description: "Австралійські підтягування 8-15 повторів + вертикальні віджимання від стіни 10-20 повторів. 3-6 підходів."
   }
 ];

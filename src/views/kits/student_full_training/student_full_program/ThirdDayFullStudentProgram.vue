@@ -1,31 +1,30 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/boy_push_up.webp",
     description: "Віджимання від підлоги 8-20 повторів. Відпочинок 10-20 секунд. Віджимання від підлоги 3-8 повторів. " +
         "Відпочинок 10-15 секунд. Віджимання від підлоги 2-6 повторів."
   },
   {
-    image: "/images/girl_squat.webp",
-    description: "\n" +
-        "Підтягування 3-10 повторів. Відпочинок 10-30 секунд. Підтягування 1-3 повтори. Відпочинок 20-40 секунд. " +
+    image: "/images/men_pull_up.webp",
+    description: "Підтягування 3-10 повторів. Відпочинок 10-30 секунд. Підтягування 1-3 повтори. Відпочинок 20-40 секунд. " +
         "Тотал 4-8 підтягування по 1 повтору."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/repeat.webp",
     description: "Повторення минулих пунктів ще на 3 кола. Відпочинок довгий."
   },
   {
-    image: "/images/repeat.webp",
+    image: "/images/girl_twisting.webp",
     description: "Скручування на прес 10-20 повторів + 15 махів на плечі з малою вагою або гумою + 20 підйомів на ікри з цими ж " +
         "5 кг у кожній руці. 3 підходи. Відпочинок 1.5 хвилини."
   },
   {
-    image: "/images/repeat.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування в одній динаміці."
   },
   {
-    image: "/images/repeat.webp",
+    image: "/images/girl_push_up.webp",
     description: "Віджимання від підлоги в одній динаміці."
   }
 ];

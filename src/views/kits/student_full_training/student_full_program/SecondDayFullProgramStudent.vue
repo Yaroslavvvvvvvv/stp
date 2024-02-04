@@ -6,11 +6,11 @@ const exercises = [
         "вертикальних тяг із гумою 15-25."
   },
   {
-    image: "/images/girl_squat.webp",
+    image: "/images/boy_push_up.webp",
     description: "Віджимання від підлоги з колін 5-15 повторів + 6-12 австралійських підтягувань з нижнього хвату."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/girl_lunges.webp",
     description: "5 випадів на кожну ногу."
   },
   {

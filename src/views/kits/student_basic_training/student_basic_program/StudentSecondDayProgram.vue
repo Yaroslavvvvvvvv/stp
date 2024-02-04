@@ -5,7 +5,7 @@ const exercises = [
     description: "Підтягування по 2-4 повтори кожні 30 секунд. Тотал 20-28 повторів."
   },
   {
-    image: "/images/australian_pull_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування 1-3 повтори кожні 25 секунд. Тотал 15-21 повтор."
   },
   {
@@ -13,23 +13,23 @@ const exercises = [
     description: "Підтягування 2 повтори кожні 15 секунд. Тотал 10-16 повторів."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/boy_push_up.webp",
     description: "Віджимання на брусах тотал 15-20 повторів + віджимання від підлоги тотал 20-30 повторів."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_deeps.webp",
     description: "Віджимання на брусах тотал 13-18 повторів."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/boy_push_up.webp",
     description: "Віджимання від підлоги тотал 13-18 повторів."
   },
   {
-    image: "/images/girl_squat.webp",
+    image: "/images/men_deeps.webp",
     description: "Віджимання на брусах тотал 10-14 повторів."
   },
   {
-    image: "/images/second_run_man.webp",
+    image: "/images/boy_push_up.webp",
     description: "Віджимання від підлоги тотал 10-14 повторів."
   },
   {

@@ -1,28 +1,28 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування 1-2 повтори. Відпочинок 5-10 секунд. Так до втоми."
   },
   {
-    image: "/images/girl_squat.webp",
+    image: "/images/men_deeps.webp",
     description: "Теж саме бруси, але 2-4 повтори."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/repeat.webp",
     description: "Повтор минулих пунктів, але 1 і 2 повтори відповідно."
   },
   {
-    image: "/images/repeat.webp",
+    image: "/images/boy_push_up.webp",
     description: "Віджимання від підлоги в динаміці."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/australian_pull_up.webp",
     description: "Підтягування стоячи ногами на землі / австралійські підтягування. 6 підходів. Чергуємо вправи. " +
         "Робимо у динаміці. Між 3 та 4 підходами віджимаємося від підлоги з колін у динаміці."
   },
   {
-    image: "/images/repeat.webp",
+    image: "/images/wall_push_up.webp",
     description: "Вертикальні віджимання на максимум. 3 підходи."
   }
 ];

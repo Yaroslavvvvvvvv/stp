@@ -1,19 +1,19 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/men_pull_up.webp",
+    image: "/images/wall_push_up.webp",
     description: "Вертикальні віджимання від стіни чи жим гуми чи ваги над головою 15 повторів + 5-10 австралійські підтягування. 3-5 підходів. Чим швидше, тим краще."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/horizontal_rubber.webp",
     description: "Горизонтальна тяга гуми на максимум. 3-5 підходів. Відпочинок рівно 50-70 секунд."
   },
   {
-    image: "/images/girl_squat.webp",
+    image: "/images/man_swing.webp",
     description: "Бліцкриг махів з малою вагою або гумою 15 повторів 3 підходи."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/second_run_man.webp",
     description: "Кардіо навантаження 15-30 хвилин."
   }
 ];
