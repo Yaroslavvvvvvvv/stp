@@ -1,20 +1,20 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування на максимум."
   },
   {
-    image: "/images/girl_squat.webp",
+    image: "/images/men_deeps.webp",
     description: "Віджимання на брусах на максимум."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування тотал 30-70 + віджимання на брусах тотал 40-100. Формат виконання, чергуємо позитивну та " +
         "негативну фази у 2 секунди кожен новий повтор."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/girl_squat.webp",
     description: "10 присідань + 5 випадів на кожну ногу + 20 махів на плечі із малим навантаженням. 6-10 кіл."
   },
 ];

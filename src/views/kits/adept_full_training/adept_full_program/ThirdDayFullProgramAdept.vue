@@ -1,32 +1,32 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/boy_biceps.webp",
     description: "Підйом на біцепс гантелей 2 повтори + 2 жиму над головою. Гантелі по 5 кг або гума середньої пружності." +
         " Робимо сидячи в одній динаміці 3 підходи."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/australian_pull_up.webp",
     description: "Австралійські підтягування 10-25 повторів. 2 підходи."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/man_swing.webp",
     description: "Махи на плечі з гантелями чи гумою низького навантаження. 15 повторів, 3 підходи."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування з гумою 5-15 повторів. 5 підходів. Відпочинок до хвилини."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/boy_push_up.webp",
     description: "Розгинання на трицепс із гумою 10-20 повторів. Відпочинок 30 секунд. 10 віджимань дед стоп від підлоги. 2 підходи."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/steam_press.webp",
     description: "25 скручувань на прес. 3 підходи."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/girl_squat.webp",
     description: "14-20 присідань. Відпочинок 30 секунд. Кожний підхід мінус 2 повтори."
   },
 ];

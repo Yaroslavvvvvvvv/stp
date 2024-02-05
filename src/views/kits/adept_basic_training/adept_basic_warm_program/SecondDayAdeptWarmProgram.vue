@@ -1,26 +1,26 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/men_pull_up.webp",
+    image: "/images/men_deeps.webp",
     description: "Віджимання на брусах + підтягування 2/1, кожен новий підхід + 2/1 повторів. Відпочинок що далі тим довший, спочатку мінімальний."
   },
   {
-    image: "/images/men_pull_up.webp",
+    image: "/images/girl_squat.webp",
     description: "Присідання 10-20 повторів + 5-10 віджимань від підлоги. 10 хвилин роботи. Можна розпочати з більшої " +
         "кількості повторів і спуститися до меншої у процесі виконання."
   },
   {
-    image: "/images/men_pull_up.webp",
+    image: "/images/australian_pull_up.webp",
     description: "Австралійські підтягування 5-10 повторів + віджимання на брусах 3-8 повторів. 10 хвилин роботи. Можна розпочати з більшої " +
         "кількості повторів і спуститися до меншої у процесі виконання."
   },
   {
-    image: "/images/men_pull_up.webp",
+    image: "/images/man_swing.webp",
     description: "Махи убік на плечі. Вага 3-5 кг. 20-25 повторів чи вертикальні віджимання від опори в динаміці. " +
         "Відпочинок 30 секунд. 4-5 підходів."
   },
   {
-    image: "/images/men_pull_up.webp",
+    image: "/images/second_run_man.webp",
     description: "Кардіо навантаження 10 хвилин."
   },
 ];

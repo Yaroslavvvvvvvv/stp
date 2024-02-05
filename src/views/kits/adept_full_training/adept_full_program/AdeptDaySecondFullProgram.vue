@@ -1,31 +1,31 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування в одній динаміці 2 підходи."
   },
   {
-    image: "/images/girl_squat.webp",
+    image: "/images/men_deeps.webp",
     description: "Віджимання на брусах в одній динаміці 2 підходи."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування в одній динаміці з гумою 2 підходи."
   },
   {
-    image: "/images/girl_squat.webp",
+    image: "/images/men_deeps.webp",
     description: "Віджимання на брусах в одній динаміці з гумою 2 підходи."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/girl_squat.webp",
     description: "Присідання 15-25 повторів 3 підходи."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/boy_push_up.webp",
     description: "Віджимання від підлоги в одній динаміці 3 підходи."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/australian_pull_up.webp",
     description: "Австралійські підтягування в одній динаміці 3 підходи."
   },
 ];

@@ -1,16 +1,16 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/boy_push_up.webp",
     description: "8 віджимань від підлоги + 4 підтягування + 10 присідань + 30 джампінг джеків. 30 хвилин роботи."
   },
   {
-    image: "/images/girl_squat.webp",
+    image: "/images/wall_push_up.webp",
     description: "10-15 вертикальних віджимань від стіни + 10 скручування на прес на підлозі + горизонтальна тяга гуми " +
         "15 повторів. 15 хвилин роботи."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/second_run_man.webp",
     description: "Кардіо навантаження 10 хвилин."
   },
 ];

@@ -1,32 +1,32 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування в одній динаміці."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_deeps.webp",
     description: "Віджимання на брусах в одній динаміці."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування EMOM. 5 хвилин. Повторів рівно половина від числа у першій вправі."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_deeps.webp",
     description: "Віджимання на брусах EMOM. 5 хвилин. Повторів рівно половина від числа у першій вправі."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/boy_biceps.webp",
     description: "Середнє навантаження згинання на біцепс не розгинаючи руку повністю, зберігаємо статичну напругу, " +
         "до втоми не рахуючи + віджимання від підлоги, постановка рук на ширині плечей, до втоми не рахуючи. 3 підходи."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/girl_deadlift.webp",
     description: "Навантаження вище за середнє, 20 тяг у нахилі + 5-10 підтягувань з гумою. 3 підходи."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/australian_pull_up.webp",
     description: "Австралійські підтягування з нижнього хвату у динаміці. 2 підходи."
   },
 ];

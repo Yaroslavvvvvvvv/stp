@@ -1,28 +1,28 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування EMOM. з 3 повторів, кожне коло +1. І вниз."
   },
   {
-    image: "/images/girl_squat.webp",
+    image: "/images/boy_push_up.webp",
     description: "Віджимання від підлоги EMOM. з 7 повторів, кожне коло +1. І вниз."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування з нижнього хвата + віджимання на брусах в одній динаміці."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/man_swing.webp",
     description: "Махи на плечі в сторони і відразу перед собою або вертикальні віджимання від стіни в динаміці. " +
         "10 повторів + 3 кг. 4 підходи. Відпочинок 30/45/60/80 секунд."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/second_run_man.webp",
     description: "Тотал 150 джампінг-джеків або інше довільне кардіо 10 хвилин."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/girl_press.webp",
     description: "Тотал 50 підйомів зігнутих у колінах ніг на перекладині."
   },
 ];

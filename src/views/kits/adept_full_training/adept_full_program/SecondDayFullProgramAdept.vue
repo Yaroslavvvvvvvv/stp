@@ -1,34 +1,34 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
-    description: "Гиря або інша вага 10-16 кг або гума, 1 взяття на груди з статі або жим над головою. Далі міняємо " +
+    image: "/images/weight.webp",
+    description: "Гиря або інша вага 10-16 кг або гума, 1 взяття на груди з підлоги і жим над головою. Далі міняємо " +
         "руку. 15 хвилин роботи."
   },
   {
-    image: "/images/girl_squat.webp",
+    image: "/images/men_pull_up.webp",
     description: "4-6 підтягування + 8-12 віджимань на брусах. 4 кола, намагатися нон стоп."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/man_swing.webp",
     description: "Жим двох гантелі або гирей по 8-16 кг або пружної гуми над головою в динаміці + тотал 40 вертикальних " +
         "віджимань або 80-100 махів на плечі з малим навантаженням."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/repeat.webp",
     description: "Повторення пунктів 2 і 3."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/men_deeps.webp",
     description: "Віджимання на брусах 8-12 повторів + 15-20 віджимань від підлоги + 15 жимів свенгу гирі лежачи на " +
         "підлозі 8-16 кг. 1-3 підходи."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування з гумою тотал 30-80."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/girl_lunges.webp",
     description: "Присідання чи випади на кожну ногу 15-20 повторів + мертва тяга із двома снарядами або гумою 10-24 кг на 20 " +
         "повторів. Відпочинок 30 секунд та відразу ж австралійські підтягування в одній динаміці. 3 кола."
   },

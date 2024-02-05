@@ -1,35 +1,35 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування з гумою як саппорт 10-15 повторів + віджимання на брусах із гумою як саппорт 20-25 " +
         "повторів. 3 підходи."
   },
   {
-    image: "/images/girl_squat.webp",
+    image: "/images/boy_biceps.webp",
     description: "Підйом гантелей або гуми на біцепс молоти. Виключити чітинг. 15 повторів із середньою вагою чи " +
         "опором. 3 підходи."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/boy_push_up.webp",
     description: "Віджимання від підлоги руки на ширині плечей. 10-20 повторів. 3 підходи."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування з гумою як саппорт 5-8 повторів + віджимання на брусах із гумою як саппорт 10-20 " +
         "повторів. 3 підходи."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/boy_biceps.webp",
     description: "Підйом гантелей або гуми на біцепс молоти. Виключити чітинг. 8-12 повторів з вагою трохи нижче середнього." +
         " 3 підходи."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/boy_push_up.webp",
     description: "Віджимання від підлоги руки на ширині плечей. 8-12 повторів. 3 підходи."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/girl_squat.webp",
     description: "5 присідань кожні 30 секунд. Тотал 30-60."
   },
 ];

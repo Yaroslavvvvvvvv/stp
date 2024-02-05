@@ -1,35 +1,35 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування дед стоп на максимум."
   },
   {
-    image: "/images/girl_squat.webp",
+    image: "/images/men_deeps.webp",
     description: "Віджимання на брусах в одній динамії."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування дед стоп. Хвилина роботи."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/boy_push_up.webp",
     description: "Віджимання від підлоги на максимум."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування дед стоп. 50 секунд роботи."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/boy_push_up.webp",
     description: "Віджимання від підлоги в одній динаміці."
   },
   {
-    image: "/images/girl_deadlift.webp",
-    description: "Підтягування дід стоп 30 секунд + вис на перекладині 30 секунд і далі тотал 10 підтягувань. 3 підходи."
+    image: "/images/men_pull_up.webp",
+    description: "Підтягування дед стоп 30 секунд + вис на перекладині 30 секунд і далі тотал 10 підтягувань. 3 підходи."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/men_deeps.webp",
     description: "Віджимання на брусах в одній динаміці."
   },
 ];

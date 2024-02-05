@@ -1,21 +1,21 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування тотал 50-60. Опціонально після кожного підходу вертикальна тяга гумою чи горизонтальна тяга з нею з " +
         "малим опором 10-20 повторів. На вибір. Можна чергувати."
   },
   {
-    image: "/images/girl_squat.webp",
+    image: "/images/boy_push_up.webp",
     description: "Віджимання від підлоги тотал 110-130. Опціонально після кожного підходу махи на плечі/відведення в " +
         "сторони з малою вагою чи гумою 10-20 повторів. На вибір. Можна чергувати."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/girl_squat.webp",
     description: "Присідання з підйомом на носки тотал 60-90."
   },
   {
-    image: "/images/repeat.webp",
+    image: "/images/girl_twisting.webp",
     description: "Скручування на прес на підлозі тотал 80."
   }
 ];

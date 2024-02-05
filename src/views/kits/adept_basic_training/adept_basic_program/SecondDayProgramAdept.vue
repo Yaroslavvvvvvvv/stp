@@ -1,27 +1,27 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування в одній динаміці."
   },
   {
-    image: "/images/girl_squat.webp",
+    image: "/images/men_deeps.webp",
     description: "Віджимання на брусах в одній динаміці."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування EMOM 5 хвилин. Повторів рівно половина від числа у першій вправі."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/men_deeps.webp",
     description: "Віджимання на брусах EMOM 5 хвилин. Повторів рівно половина від числа у другій вправі."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/australian_pull_up.webp",
     description: "Австралійські підтягування в динаміці, чергуємо хвати з верхнього на нижній і навпаки кожен новий підхід. 4 підходи."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/wall_push_up.webp",
     description: "Вертикальні віджимання від стіни у динаміці. 4 підходи."
   },
 ];

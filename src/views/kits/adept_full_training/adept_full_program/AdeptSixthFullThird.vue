@@ -1,51 +1,51 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування 8 повторів."
   },
   {
-    image: "/images/girl_squat.webp",
+    image: "/images/australian_pull_up.webp",
     description: "Австралійські підтягування 10 повторів."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування стоячи ногами землі 12 повторів."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/repeat.webp",
     description: "Повторення минулих пунктів ще на 2-4 кола."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/wall_push_up.webp",
     description: "Вертикальні віджимання 15 повторів."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/boy_push_up.webp",
     description: "Віджимання від підлоги 20 повторів."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/man_swing.webp",
     description: "Махи на плечі з малим навантаженням 25 повторів."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/repeat.webp",
     description: "Повторення минулих пунктів ще на 2-4 кола."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/girl_lunges.webp",
     description: "Випади вперед 10 повторів на одну ногу і відразу на іншу."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/girl_lunges.webp",
     description: "Випади назад 10 повторів на одну ногу і відразу на іншу."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/girl_squat.webp",
     description: "10 присідань."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/repeat.webp",
     description: "Повторення минулих пунктів ще на 1-3 кола."
   },
 ];

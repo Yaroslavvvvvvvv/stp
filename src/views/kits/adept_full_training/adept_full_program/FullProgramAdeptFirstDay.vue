@@ -1,36 +1,36 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування 4-10 повторів, 2-3 секунди опускання, потім вибуховий рух. Відпочинок 1 хвилина і вже на " +
         "3-8 повторів. І ще раз до 3-7/3-7/2-7."
   },
   {
-    image: "/images/girl_squat.webp",
+    image: "/images/australian_pull_up.webp",
     description: "Австралійські підтягування в такому самому стилі, на 12-15 повторів, потім 10-12, потім 8-10/6-10/5-10."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/girl_rubber.webp",
     description: "Жим ваги або гуми з навантаженням вище за середнє над головою в такому ж стилі 12-15 повторів. 4 підходи."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування 2-5 повторів у такому ж стилі. Відпочинок 30 секунд. На максимум."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/men_deeps.webp",
     description: "Віджимання на брусах по 4-10 повторів у такому ж стилі. На максимум."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/boy_push_up.webp",
     description: "Віджимання від підлоги в такому самому стилі на максимум."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування стоячи ногами на землі у такому ж стилі. На максимум."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/girl_squat.webp",
     description: "Присідання повільні в динаміці максимум. 2 підходи. Відпочинок 1 хвилина."
   },
 ];

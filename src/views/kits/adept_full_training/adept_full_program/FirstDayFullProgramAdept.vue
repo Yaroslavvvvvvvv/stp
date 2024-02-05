@@ -1,31 +1,31 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування з гумою у динаміці. 4 підходи. Відпочинок 2 хвилини."
   },
   {
-    image: "/images/girl_squat.webp",
+    image: "/images/men_deeps.webp",
     description: "Віджимання на брусах із гумою як сапорт. 3 підходи. Відпочинок 2 хвилини."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування з гумою. 45 секунд – 1 хвилина роботи. Можна відпочивати у висі."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/men_deeps.webp",
     description: "Віджимання на брусах із гумою як сапорт. 35-45 секунд роботи. Можна відпочивати в упорі."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/repeat.webp",
     description: "Повторення пунктів 3 і 4."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/australian_pull_up.webp",
     description: "Тотал 60-100 австралійські підтягування + тотал 60-100 віджимання від підлоги."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/girl_squat.webp",
     description: "Тотал 50-80 присідання."
   },
 ];

@@ -1,7 +1,7 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування 3 хвилини + віджимання на брусах або від підлоги на вибір 3 хвилини. " +
         "(Можна чергувати кожен новий підхід) 30-50 хвилин навантаження."
   },
@@ -11,7 +11,7 @@ const exercises = [
         " 15-25 хвилин роботи."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/second_run_man.webp",
     description: "100-200 джампінг-джеків або довільне кардіо 10-15 хвилин."
   },
 ];

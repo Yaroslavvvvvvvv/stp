@@ -1,27 +1,27 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування тотал 15-22 дробимо один раз."
   },
   {
-    image: "/images/girl_squat.webp",
+    image: "/images/men_deeps.webp",
     description: "Віджимання на брусах тотал 25-33. Дробимо один раз."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/repeat.webp",
     description: "Повторення 1 і 2 двічі."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/australian_pull_up.webp",
     description: "6-10 австралійських підтягувань + 2-5 підтягування. 6-10 підходів."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/boy_push_up.webp",
     description: "5-10 віджимань від підлоги + 2-5 віджимань на брусах. 6-10 підходів."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/girl_lunges.webp",
     description: "1 випад на кожну ногу + 2 присідання. 5 повторів. 4-6 підходів."
   },
 ];

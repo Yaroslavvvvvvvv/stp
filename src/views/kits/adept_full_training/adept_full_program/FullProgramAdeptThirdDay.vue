@@ -1,16 +1,16 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/girl_squat.webp",
     description: "10-15 секунд стільчик + 5-7 присідань + 2 хвилини велотренажер. 3-5 підходів."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/man_swing.webp",
     description: "Гантелі, вага нижча за середню або гума, махи на плечі 20 повторів + відразу ж жим над головою 10 " +
         "повторів. 3-5 підходів."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/repeat.webp",
     description: "Повторення пункту 1."
   },
   {
@@ -18,8 +18,8 @@ const exercises = [
     description: "Нахили з дотиком долоні підлоги 20-30 повторів + планка 20-30 секунд. 3 підходи."
   },
   {
-    image: "/images/girl_push_up.webp",
-    description: "Підйоми на литки без ваги в частковій амплітуді підконтрольно без рахунку на максимум. Відпочинок 1 " +
+    image: "/images/run_man.webp",
+    description: "Підйоми на ікри без ваги в частковій амплітуді підконтрольно без рахунку на максимум. Відпочинок 1 " +
         "хвилина. 3 підходи."
   },
 ];

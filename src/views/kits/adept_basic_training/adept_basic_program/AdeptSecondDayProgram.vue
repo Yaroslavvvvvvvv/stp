@@ -1,19 +1,19 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування тотал 60."
   },
   {
-    image: "/images/girl_squat.webp",
+    image: "/images/boy_push_up.webp",
     description: "Віджимання від підлоги тотал 130."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/girl_squat.webp",
     description: "Присідання з підйомом на носки тотал 90."
   },
   {
-    image: "/images/repeat.webp",
+    image: "/images/steam_press.webp",
     description: "Скручування на прес на підлозі тотал 80."
   }
 ];

@@ -1,16 +1,16 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "10 підтягувань. Відпочинок 30 секунд. Підйом на біцепс з малою вагою або вагою трохи меншою за середній, можна " +
         "молоти на біцепс з гумою або гантелями + 4 жиму над головою, в динаміці. Кожен новий підхід мінус 1 підтягування."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/boy_push_up.webp",
     description: "15 віджимань від підлоги. Відпочинок 30 секунд. 5 віджимань на брусах. 5 підходів."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/girl_squat.webp",
     description: "10 присідань. 20 скручування на прес на підлозі. 20 махів на плечі із 5 кг. У своєму темпі. Не кваплячись. 5 кіл."
   },
 ];

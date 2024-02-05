@@ -1,26 +1,26 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/wall_push_up.webp",
     description: "Вертикальні віджимання 20 повторів + 15 махів на плечі з гумою або малою вагою + підтягування в динаміці, далі " +
         "відпочинок 30 секунд та по одному ідеальному підтягуванню зібрати ТОТАЛ такий самий, як і кількість повторів " +
         "підтягування в динаміці. 3 підходи."
   },
   {
-    image: "/images/girl_squat.webp",
+    image: "/images/men_deeps.webp",
     description: "Віджимання на брусах з негативною фазою 2 секунди. Тотал 20."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/men_deeps.webp",
     description: "Віджимання на брусах з негативною фазою 2 секунди. Тотал 20."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/australian_pull_up.webp",
     description: "Австралійські підтягування 5 повторів з нижнього хвата і 5 з верхнього, далі 10 віджимань від підлоги " +
         "з паузою в серидині руху + австралійські підтягування 5 повторів з нижнього хвата і 5 з верхнього + жим малого навантаження над головою не вимикаючи лікті 15 повторів. 2-4 підходи."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/girl_squat.webp",
     description: "Присідання на максимум. Два підходи."
   },
 ];

@@ -1,17 +1,17 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/boy_push_up.webp",
     description: "10 віджимань від підлоги + 5 підтягувань + 5 присідань + 10 скручування на прес + Підйоми на біцепс з " +
         "малою вагою або вагою трохи меншою за середню, можна молоти на біцепс з гумою або гантелями + 4 жиму над " +
         "головою, в динаміці."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/run_man.webp",
     description: "Піша активність 1-2 хвилини."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/repeat.webp",
     description: "Повторюємо так 50 хвилин."
   },
 ];

@@ -472,7 +472,7 @@ const routes = [
     //Adept Fifth Period
     {
         path: '/adept_fifth_period',
-        name: 'adept fourth period',
+        name: 'adept fifth period',
         component: () => import('./views/kits/adept_basic_training/AdeptFifthPeriod.vue')
     },
     {
@@ -492,7 +492,7 @@ const routes = [
     },
     {
         path: '/adept_fifth_full_period',
-        name: 'adept fourth full period',
+        name: 'adept fifth full period',
         component: () => import('./views/kits/adept_full_training/AdeptFifthFullPeriod.vue')
     },
     {

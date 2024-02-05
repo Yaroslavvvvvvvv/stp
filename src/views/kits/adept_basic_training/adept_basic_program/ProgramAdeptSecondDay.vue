@@ -1,44 +1,44 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування стоячи ногами землі 20 повторів."
   },
   {
-    image: "/images/girl_squat.webp",
+    image: "/images/boy_push_up.webp",
     description: "Віджимання від підлоги з колін 20 повторів."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/repeat.webp",
     description: "Повторення минулих пунктів у двоє менших цифрах."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування на максимум."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/men_deeps.webp",
     description: "Віджимання на брусах на максимум."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/men_pull_up.webp",
     description: "2 підтягування + 4 віджимання на брусах. Безперервна серія до первинної втоми. Дотримуватись ідеальної" +
         " техніки та високої швидкості виконання."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/boy_push_up.webp",
     description: "Віджимання від підлоги в одній динаміці."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування в одній динаміці."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/australian_pull_up.webp",
     description: "Загальний збірний тотал австралійські підтягування + віджимання підлоги. 80-120."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/girl_squat.webp",
     description: "Тотал 50 присідань."
   },
 ];
