@@ -1,23 +1,23 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування на максимум."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/australian_pull_up.webp",
     description: "Австралійські підтягування однієї динаміці."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/boy_push_up.webp",
     description: "Віджимання від підлоги чи на брусах на максимум."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/wall_push_up.webp",
     description: "Вертикальні віджимання від стіни в одній динаміці."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/repeat.webp",
     description: "Повторюємо все спочатку. Загальний час тренування – 1 година."
   },
 ];

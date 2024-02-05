@@ -1,19 +1,19 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/rak.webp",
     description: "Віджимання у стійці біля стіни або вертикальні віджимання + підтягування. 20 хвилин роботи."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/wall_push_up.webp",
     description: "Вертикальні віджимання від стіни + австралійські підтягування. 20 хвилин роботи."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/girl_squat.webp",
     description: "Присідання 10-20 повторів + стрибки на скакалці 20 повторів. 10 хвилин роботи."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/second_run_man.webp",
     description: "Кардіо 15-30 хвилин."
   },
 ];

@@ -1,23 +1,23 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_deeps.webp",
     description: "Віджимання на брусах з максемальною концентрацією та якістю + швидкісні віджимання на брусах + віджимання на брусах зі стрибка."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Високі підтягування + стандартні підтягування + підтягування стоячи ногами землі."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/girl_lunges.webp",
     description: "1 присідання + 2 випади + 1 вистрибування. 5-10 кіл."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/boy_push_up.webp",
     description: "Віджимання від підлоги з відривом низу долоні від площини + віджимання від підлоги + віджимання від підлоги з колін."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/repeat.webp",
     description: "Повторити всі пункти, 2-3 кола."
   },
 ];

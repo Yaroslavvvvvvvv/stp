@@ -6,15 +6,15 @@ const exercises = [
         "підлоги. 15 хвилин роботи нон-стоп."
   },
   {
-    image: "/images/men_pull_up.webp",
+    image: "/images/girl_twisting.webp",
     description: "10 насосів + 10 скручування на прес на підлозі + 30 джампінг джеків. 10 хвилин роботи нон-стоп."
   },
   {
-    image: "/images/men_pull_up.webp",
+    image: "/images/wall_push_up.webp",
     description: "15-20 вертикальних віджимань від стіни + 3 берпі (з 3 віджиманнями щоразу) + 30 секунд планка. 10 хвилин."
   },
   {
-    image: "/images/men_pull_up.webp",
+    image: "/images/boy_push_up.webp",
     description: "Тотал 25-40 підтягувань + тотал 60-80 віджимань від підлоги + тотал 40-80 присідань."
   },
 ];

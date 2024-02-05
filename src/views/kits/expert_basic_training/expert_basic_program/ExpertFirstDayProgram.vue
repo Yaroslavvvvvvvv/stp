@@ -1,30 +1,30 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування із продовженням 5-8 повторів. 3-5 підходів."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "ІСО холд 5/5/5 + підтягування в одній динаміці + віджимання в одній динаміці. 2-3 підходи."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_deeps.webp",
     description: "Віджимання на брусах в одній динаміці + віджимання від підлоги в одній динаміці + віджимання з колін " +
         "в одній динаміці. 2 підходи."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування 10-20 повторів + 20-35 віджимань на бруси + 30-50 присідань + 50-100 джампінг джеків + " +
         "20-40 австралійських підтягувань + 20-40 віджимань від підлоги + 30-50 скручування на прес швидше ніж за 7-10 хвилин."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_deeps.webp",
     description: "Віджимання на брусах або від підлоги 6-12 + 4-8 підтягування або підтягування стоячи ногами на землі. " +
         "7-10 хвилин роботи. Можна чергувати."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/wall_push_up.webp",
     description: "Вертикальні віджимання від стіни 20 повторів + 10 вистрибувань 5 підходів. Відпочинок до хвилини."
   },
 ];

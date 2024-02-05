@@ -1,35 +1,35 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/australian_pull_up.webp",
     description: "Австралійські підтягування 8-15 повторів. 2-3 підходи, відпочинок 30 секунд."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування у динаміці."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/australian_pull_up.webp",
     description: "Австралійські підтягування 10-20 повторів. 2-3 підходи, відпочинок 40 секунд."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування у динаміці."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/australian_pull_up.webp",
     description: "Австралійські підтягування 12-20 повторів. 2-3 підходи, відпочинок 50 секунд."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування у динаміці."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування стоячи ногами на землі в динаміці. 1-3 підходи."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/girl_squat.webp",
     description: "10-20 присідань + 15-25 віджимань від підлоги + 10-20 вертикальних віджимань. 15-20 хвилин роботи."
   },
 ];

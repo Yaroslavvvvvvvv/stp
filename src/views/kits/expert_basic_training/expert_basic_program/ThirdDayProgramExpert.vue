@@ -1,15 +1,15 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_deeps.webp",
     description: "10-20 віджимань на брусах + 5-10 підтягувань + 10-15 присідань."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/run_man.webp",
     description: "Прогулянка 2 хвилини навколо майданчика."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/repeat.webp",
     description: "Повторюємо 50 хвилин."
   },
 ];

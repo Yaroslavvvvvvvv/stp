@@ -1,23 +1,23 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "EMOM. Підтягування 10 хвилин 6-10 повторів. Можна міняти цифри за станом."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_deeps.webp",
     description: "Віджимання на брусах. EMOM. 10 хвилин, 8-15 повторів."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Те саме що й 1 пункт. Але 5-7 хвилин."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_deeps.webp",
     description: "Те саме що й 2 пункт. Але 5-7 хвилин."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/girl_squat.webp",
     description: "Тотал 50 присідань/присідань із підйомом на носок."
   },
 ];

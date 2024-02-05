@@ -1,28 +1,28 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування до 90 градусів з нижнього хвата, тримаємо себе до втоми і повільно дотягуємо до кінця, " +
         "далі дуже повільно опускаємося вниз."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_deeps.webp",
     description: "Віджимання на брусах або від підлоги в такому ж стилі."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/repeat.webp",
     description: "Повторюємо минулі 2 пункти на протязі 20-40 хвилин."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/girl_lunges.webp",
     description: "Випади послідовно 10-15 хвилин довільної роботи."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/australian_pull_up.webp",
     description: "Австралійські підтягування чи підтягування стоячи ногами на землі в динаміці 2-4 підходу."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/boy_push_up.webp",
     description: "Віджимання від підлоги з колін або вертикальні віджимання в динаміці 2-4 підходи."
   },
 ];

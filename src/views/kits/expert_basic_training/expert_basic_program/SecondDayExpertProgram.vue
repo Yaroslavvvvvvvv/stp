@@ -1,39 +1,39 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/rak.webp",
     description: "Стійка на руках 3-10 підходів."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "ІСО Холд 10/10/20 + підтягування в одній динаміці. 2-3 підходи."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/boy_push_up.webp",
     description: "Віджимання від підлоги в одній динаміці."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування із продовженням на максимум."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування з нижнього хвата знизу до середини 3, з середини до верху 3 і 5 повних після вису в дед стопі 5 секунд. 3 підходи."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/boy_push_up.webp",
     description: "Віджимання у трьох амплітудах 10/10/10. 3 підходи."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування по 1 повтору до первинної втоми."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/boy_push_up.webp",
     description: "Віджимання від підлоги по 2 повтори, в такому ж стилі."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/repeat.webp",
     description: "Повторення пунктів 7 та 8. Можна замінити на австралійські підтягування або підтягування стоячи ногами" +
         " на землі."
   },

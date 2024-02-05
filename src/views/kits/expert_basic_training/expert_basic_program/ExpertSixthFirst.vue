@@ -1,23 +1,23 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Тотал 60-100 підтягувань. Робимо щоразу на максимум. Відпочинок 1-3 хвилини."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_deeps.webp",
     description: "Тотал 80-120 віджимань на брусах у такому стилі. Відпочинок 1-3 хвилини."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/australian_pull_up.webp",
     description: "Тотал 60-100 австралійські підтягування у такому ж стилі. Відпочинок 1-3 хвилини."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/boy_push_up.webp",
     description: "Тотал 100-140 віджимань від підлоги в такому стилі."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/girl_squat.webp",
     description: "Тотал 80-150 присідань у такому стилі. Після кожної зупинки вертикальні віджимання у відмову."
   },
 ];

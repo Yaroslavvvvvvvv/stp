@@ -1,16 +1,16 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування 7-10 повторень. Стільки підходів, скільки можеш виконати. Як тільки більше немає сил виконати 10 " +
         "повторів, закінчити. Ліміт за часом 25 хвилин."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/rak.webp",
     description: "Віджимання у стійці біля стіни в такому ж стилі та число повторів 5-10."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/girl_squat.webp",
     description: "Тотал 100-200 присідань. Відпочинок 1-3 хвилини. Робимо щоразу на максимум."
   },
 ];

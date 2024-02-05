@@ -1,7 +1,7 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/men_pull_up.webp",
+    image: "/images/men_deeps.webp",
     description: "25-40 віджимань на брусах + 15-35 підтягувань + 25-40 присідань."
   },
   {
@@ -9,7 +9,7 @@ const exercises = [
     description: "15-35 віджимань на брусах + 12-25 підтягувань + 15-25 присідань."
   },
   {
-    image: "/images/men_pull_up.webp",
+    image: "/images/men_deeps.webp",
     description: "25 віджимань на брусах + 15 підтягувань + 25 присідань."
   },
   {
@@ -17,19 +17,19 @@ const exercises = [
     description: "10 віджимань на брусах + 10 підтягувань + 20 присідань."
   },
   {
-    image: "/images/men_pull_up.webp",
+    image: "/images/steam_press.webp",
     description: "30 скручування на прес на підлозі + віджимання в одній динаміці. 2 підходи."
   },
   {
-    image: "/images/men_pull_up.webp",
+    image: "/images/australian_pull_up.webp",
     description: "Австралійські підтягування на максимум. 2 підходи."
   },
   {
-    image: "/images/men_pull_up.webp",
+    image: "/images/run_man.webp",
     description: "Тотал 125 підконтрольних підйомів на ікри. 3 підходи."
   },
   {
-    image: "/images/men_pull_up.webp",
+    image: "/images/second_run_man.webp",
     description: "Кардіо 15 хвилин."
   },
 ];

@@ -1,27 +1,27 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування 5-10 повторів."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/rak.webp",
     description: "Віджимання у стійці біля стіни тотал 1-10 повторів."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування стоячи ногами на землі 10-20 повторів."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/wall_push_up.webp",
     description: "Вертикальні віджимання 12-18 повторів + австралійські підтягування з нижнього хвату 10-15 повторів."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/repeat.webp",
     description: "Повторення протягом 30-40 хвилин."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/girl_lunges.webp",
     description: "10 випадів на кожну ногу по черзі + 10-20 присідань. 4-8 підходів."
   },
 ];

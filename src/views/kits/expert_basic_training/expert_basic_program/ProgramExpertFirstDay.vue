@@ -1,28 +1,28 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування 10-15 повторів + відпочинок 10 секунд + підтягування 6-10 повторів + відпочинок 20 секунд" +
         " + підтягування по 1 повтору тотал 6-8."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_deeps.webp",
     description: "Віджимання на брусах у такому ж стилі та цифрах."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/boy_push_up.webp",
     description: "Віджимання від підлоги з секундними паузами всередині руху. У динаміці."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/repeat.webp",
     description: "Повторити ще на 2-3 кола усі минулі пункти."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/australian_pull_up.webp",
     description: "Австралійські підтягування + вертикальні віджимання в одній динаміці. 4 підходи."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/girl_twisting.webp",
     description: "Скручування на прес 25 повторів + 10-20 присідань + 50-100 стрибки на скакалці. 2-4 підходи."
   },
 ];

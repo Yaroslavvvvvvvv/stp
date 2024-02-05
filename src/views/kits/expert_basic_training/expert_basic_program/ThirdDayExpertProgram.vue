@@ -1,17 +1,16 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування стоячи ногами на землі 15 повторів + 20 віджимань від підлоги з колін. 3-6 підходів."
   },
   {
-    image: "/images/girl_push_up.webp",
-    description: "\n" +
-        "1 підтягування з паузами у верхній та нижній точці + 2 віджимання на брусах з паузами + 2 присідання + 10 " +
+    image: "/images/men_deeps.webp",
+    description: "1 підтягування з паузами у верхній та нижній точці + 2 віджимання на брусах з паузами + 2 присідання + 10 " +
         "скручування на прес. 20 хвилин роботи."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/second_run_man.webp",
     description: "20 хвилин легке кардіо."
   },
 ];
