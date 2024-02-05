@@ -1,27 +1,27 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/rak.webp",
     description: "Віджимання у стійці біля стіни тотал 40-100 + підтягування тотал 70-120."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/australian_pull_up.webp",
     description: "Австралійські підтягування тотал 70-120 мінімальних подрібнень."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_deeps.webp",
     description: "Віджимання на брусах тотал 70-120 мінімальне дроблення."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування стоячи ногами на землі тотал 60-120 мінімальне дроблення."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/boy_push_up.webp",
     description: "Віджимання від підлоги тотал 60-120 мінімальне дроблення."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/man_swing.webp",
     description: "Махи на плечі з гумою чи гантелями 30 повторів + 30 присідань. 3 підходи."
   },
 ];

@@ -1,28 +1,28 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування 3-6 повторів. Кожні 30 секунд."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/rak.webp",
     description: "Віджимання у стійці біля стіни 2-5 повторів. кожні 30 секунд."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "1 підтягування з верхнього хвату + 1 із нижнього. Безперервна серія."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/wall_push_up.webp",
     description: "Вертикальні віджимання від стіни чи жими гумою чи гантелями на максимум + австралійські підтягування " +
         "на максимум + махи на плечі з гумою чи гантелями на максимум. 2 кола."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування з гумою тотал 40-60 + віджимання від підлоги тотал 60-120."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/steam_press.webp",
     description: "Скручування на прес 25 повторів. 3 підходи + скакалка тотал 200."
   },
 ];

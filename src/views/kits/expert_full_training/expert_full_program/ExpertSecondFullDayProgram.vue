@@ -1,17 +1,17 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "8-12 підтягувань + 10-15 ривків гирі 16 кг на кожну руку + 30-50 джампінгів джеків + 8-12 поштовхів " +
         "гирі 16 кг на кожну руку + 10 присідань + 10 вистрибувань на місці. 2-4 кола."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_deeps.webp",
     description: "15-25 віджимань на брусах + 20-30 присідань пліє 16-32 кг + 20-25 віджимань від підлоги + 8-12 " +
         "підтягувань з нижнього хвату + 8-12 присідань 10-30 кг + 10-15 вистрибувань на місці. 4 кола."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/second_run_man.webp",
     description: "Кардіо 20 хвилин не інтенсивно."
   },
 ];

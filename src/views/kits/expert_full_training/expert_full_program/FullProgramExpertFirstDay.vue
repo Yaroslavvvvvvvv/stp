@@ -1,35 +1,35 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування + 5-24 кг в одній динаміці."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_deeps.webp",
     description: "Віджимання на брусах + 5-24 кг в одній динаміці."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/repeat.webp",
     description: "Повторення ще двічі пунктів 1 і 2."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування в одній динаміці. Швидке виконання."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_deeps.webp",
     description: "Віджимання на брусах в одній динаміці. Швидке виконання."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування з фіксацією нагорі в 2 секунди. Тотал 20-40."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_deeps.webp",
     description: "Віджимання на брусах з фіксацією в 90 градусних кутах. Тотал 40-60."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/girl_lunges.webp",
     description: "Тотал 40-120 вистрибування чи випади чи присідання чи присідання з гантелями."
   },
 ];

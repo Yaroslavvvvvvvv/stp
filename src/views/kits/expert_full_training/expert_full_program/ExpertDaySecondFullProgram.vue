@@ -1,37 +1,37 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/rak.webp",
     description: "3-10 віджимань у стійці на руках біля стіни + 20-30 махів у сторони з малою вагою або гумою + 10-20 " +
         "австралійських підтягувань. Далі відпочинок хвилина і жим сидячи з опорою на стіну ваги 10-20 кг або гуми тотал" +
         " 10-25 на кожну руку. Роби на максимум і змінюй на іншу, і так нон стоп, поки не виконаєш тотал 15."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "2 підтягування з верхнього хвату і відразу міняємо на нижній, чергуємо щоразу. На максимум."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/rak.webp",
     description: "Повторення пункту 1, але більший відпочинок між вправами."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Повторення пункту 2, але чередуємо по 1 підтягуванню."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/girl_squat.webp",
     description: "5 вистрибувань + 5 віджимань від підлоги. 10 хвилин роботи."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/run_man.webp",
     description: "Тотал 200 джампінг джеків."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування в одній динаміці + віджимання від підлоги в одній динаміці. Два підходи."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/boy_push_up.webp",
     description: "Підтягування стоячи ногами на землі в одній динаміці + віджимання від підлоги з колін у динаміці."
   },
 ];

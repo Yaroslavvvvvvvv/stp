@@ -1,34 +1,34 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/weight.webp",
     description: "Гиря або гантеля 10-24 кг, 1 взяття на груди з підлоги та жим над головою. Далі міняємо руку. 15 хвилин роботи."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "3-8 підтягування + 5-16 кг + 5-12 віджимань на брусах + 5-24 кг. 5-8 кіл, намагаються нон стоп або з малим " +
         "відпочинком. Вагу можна знижувати у процесі."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/rak.webp",
     description: "Віджимання у стійці біля стіни тотал 10-30 + тотал 40-80 вертикальних віджимань від стіни чи жиму над " +
         "головою ваги чи гуми."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/repeat.webp",
     description: "Повторення пунктів 2 і 3."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_deeps.webp",
     description: "Віджимання на брусах 10-20 повторів + 15-25 віджимань від підлоги + 15-30 жимів свенгу гирі лежачи на " +
         "підлозі по 16 кг. 3 підходи."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування з гумою тотал 50-80."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/girl_squat.webp",
     description: "Присідання 20-30 повторів + мертва тяга із двома гантелями 10-24 кг або гума на 15 повторів. Відпочинок" +
         " 30 секунд та відразу ж австралійські підтягування в одній динаміці. 3-4 кола."
   },

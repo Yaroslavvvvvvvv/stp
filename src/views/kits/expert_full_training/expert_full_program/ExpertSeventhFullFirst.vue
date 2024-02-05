@@ -1,12 +1,12 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування 5-10 повторів + 10-16 кг + віджимання у стійці біля стіни 5-10 або вертикальні віджимання" +
         " чи жима над головою ваги чи гуми. 30 хвилин кругова робота."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/squats_with_dumbbells.webp",
     description: "Присідання з гантелями тотал 80-120 вага до 24 кг у кожній руці. Після кожної зупинки австралійські " +
         "підтягування в динаміці."
   },

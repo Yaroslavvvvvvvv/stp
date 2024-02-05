@@ -4,29 +4,28 @@ const exercises = [
     image: "/images/men_pull_up.webp",
     description: "Підтягування в одній динаміці 2 підходи."
   },
-
   {
     image: "/images/men_pull_up.webp",
     description: "Підтягування з гумою в одній динаміці 2 підходи."
   },
   {
-    image: "/images/men_pull_up.webp",
+    image: "/images/men_deeps.webp",
     description: "Віджимання на брусах в одній динаміці 2 підходи."
   },
   {
-    image: "/images/men_pull_up.webp",
+    image: "/images/men_deeps.webp",
     description: "Віджимання на брусах з гумою в одній динаміці 2 підходи."
   },
   {
-    image: "/images/men_pull_up.webp",
+    image: "/images/girl_squat.webp",
     description: "Вистрибування або присідання в одній динаміці 3 підходи."
   },
   {
-    image: "/images/men_pull_up.webp",
+    image: "/images/boy_push_up.webp",
     description: "Віджимання від підлоги в одній динаміці."
   },
   {
-    image: "/images/men_pull_up.webp",
+    image: "/images/second_run_man.webp",
     description: "Кардіо навантаження 20 хвилин."
   },
 ];

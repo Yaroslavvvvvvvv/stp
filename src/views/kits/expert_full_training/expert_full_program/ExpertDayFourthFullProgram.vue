@@ -2,19 +2,19 @@
 const exercises = [
 
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/rak.webp",
     description: "Віджимання у стійці біля стіни в одній динаміці + 20 махів на плечі з малою вагою або гумою. 15 хвилин роботи."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування + віджимання від підлоги. 15 хвилин роботи. Мета зібрати високий збірний тотал."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/girl_squat.webp",
     description: "Присідання + махи на плечі з малою вагою чи гумою. 15 хвилин роботи. Мета зібрати високий збірний тотал."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/girl_twisting.webp",
     description: "Джампінг джеки + скручування на прес. 10 хвилин роботи. Мета зібрати високий збірний тотал."
   },
 ];

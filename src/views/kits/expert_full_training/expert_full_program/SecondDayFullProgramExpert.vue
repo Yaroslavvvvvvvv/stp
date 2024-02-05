@@ -1,15 +1,15 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_deeps.webp",
     description: "Віджимання на брусах 2 + підтягування 1. Вага 10-16 кг кожен новий підхід + 2 та 1 і вниз."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_deeps.webp",
     description: "Те саме, але без ваги."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/squats_with_dumbbells.webp",
     description: "Присідання з 10-16 кг, встаючи на трохи зігнутих руках, вивести вагу над головою силою плечей. Тотал 50-80."
   },
 ];

@@ -1,40 +1,40 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/rak.webp",
     description: "Віджимання у стійці біля стіни тотал 20-60."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування 10-15 повторів + 20-25 мертвих тяг 16-32 кг або 10-24 кг у кожній руці. Кожен новий " +
         "підхід мінус 1  2 повтору."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/rak.webp",
     description: "Віджимання у стійці на руках у бандажі з гуми. Тотал 30-60."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування з гумою тотал 40-60."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/boy_push_up.webp",
     description: "Віджимання від підлоги тотал 80-120."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/man_swing.webp",
     description: "Махи гантелей або гуми легкої ваги на плечі на максимум. Відпочинок 60 секунд, 2-3 підходи."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/girl_squat.webp",
     description: "10 присідань + 5 присідань із низу до середини + 5 присідань із середини до верху. 3-5 підходів."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/girl_squat.webp",
     description: "Тотал 20-50 вистрибування. Закрити швидко."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/steam_press.webp",
     description: "Опціонально. 20-50 джампінг джеків + 10-20 скручування на прес. 10 хвилин роботи."
   },
 ];

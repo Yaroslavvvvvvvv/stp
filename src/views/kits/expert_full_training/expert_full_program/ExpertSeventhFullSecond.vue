@@ -1,37 +1,37 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування тотал 20-30 + віджимання на брусах тотал 30-50."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_deeps.webp",
     description: "Віджимання на брусах + 10-16 кг тотал 30-40 + підтягування + 10-16 кг тотал 15-20."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування + 16-32 кг тотал 10-15 + віджимання на брусах + 16-32кг тотал 20-30."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_deeps.webp",
     description: "Віджимання на брусах + 5-16 кг тотал 20-35 + підтягування + 5-16 кг тотал 15-22."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування тотал 15-25 + віджимання на брусах тотал 30-50."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/rak.webp",
     description: 'Віджимання у стійці біля стіни або з гумою або жим ваги або гуми або вертикальні віджимання в динаміці.' +
         ' 3-5 підходів. Відпочинок 2 хвилини.'
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/man_swing.webp",
     description: "Махи на плечі з великим навантаженням на максимум. 3-4 підходи. Відпочинок 2 хвилини. Після кожного " +
         "підходу 20-40 присідань."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/australian_pull_up.webp",
     description: "Австралійські підтягування з нижнього хвату максимум. 2-4 підходи. Відпочинок 2 хвилини. Після кожного" +
         " підходу 10-20 випадів на кожну ногу."
   },

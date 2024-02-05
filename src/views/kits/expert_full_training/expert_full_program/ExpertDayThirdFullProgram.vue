@@ -2,17 +2,17 @@
 const exercises = [
 
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування дед стоп + віджимання на брусах або від підлоги дед стоп. На максимум 4 підходи, акцент " +
         "на якість та амплітуду. Швидкість виконання низька."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/girl_squat.webp",
     description: "Тотал 100 присідань + тотал 200 джампінг джеків. Намагатися відпочивати рідко та не більше 30 секунд. Робити в " +
         "повільному темпі і дуже якісно."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/australian_pull_up.webp",
     description: "Австралійські підтягування + жим гантелей 6 кг над головою на максимум. Максимум об'єму за 15 хвилин."
   },
 ];

@@ -1,36 +1,36 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/rak.webp",
     description: "EMOM. 2-5 віджимання в стійці + 2-5 підйому в передній вис з гумою. 15-30 хвилин."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/girl_squat.webp",
     description: "EMOM. 10 присідань + 10 махів на плечі із великим опором. 15-20 хвилин."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/man_swing.webp",
     description: "Махи на плечі з малим опором на максимум."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/girl_rubber.webp",
     description: "Підйом гуми чи ваги над головою на максимум."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/boy_push_up.webp",
     description: "Віджимання від підлоги статика до втоми в 90 градусів, далі дуже повільно дотискаємо нагору і відразу негативне" +
         " віджимання дуже повільне. 2-3 підходи."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування з гумою у динаміці. 2 підходи."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/australian_pull_up.webp",
     description: "Австралійські підтягування у динаміці. 2 підходи."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/boy_push_up.webp",
     description: "Віджимання від підлоги тотал 30-50 повторів, кожен 5 раз тримаємо себе на прямих руках 5 секунд."
   },
 ];

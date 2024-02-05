@@ -1,23 +1,23 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/man_swing.webp",
     description: "Махи гантелей чи гуми великого опору. Тотал 150-200 повторів. Після кожної зупинки 10-15 підтягувань."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/girl_rubber.webp",
     description: "Жим ваги чи гуми над головою. Тотал 140-220 повторів. Після кожної зупинки 10-15 підтягувань з гумою."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/boy_push_up.webp",
     description: "Віджимання від підлоги. Тотал 120-180 повторів. Після кожної зупинки 15-20 австралійських підтягувань."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/boy_push_up.webp",
     description: "Віджимання від підлоги з колін тотал 100-150 повторів. Після кожної зупинки 15-25 підтягувань стоячи ногами землі."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/squats_with_dumbbells.webp",
     description: "Присідання з гантелями чи гумою на максимум 3 підходи. Темп виконання повільний."
   },
 ];

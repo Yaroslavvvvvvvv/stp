@@ -1,24 +1,24 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/boy_push_up.webp",
     description: "Кросовери гумою на максимум або розведення лежачи на підлозі з помірною вагою + відпочинок 30 секунд " +
         "+ віджимання від підлоги на максимум. Відпочинок хвилина. 3-5 підходів."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Віджимання від підлоги на максимум + підтягування з гумою в одній динаміці. 3-5 підходів."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/vertical_thrust.webp",
     description: "Вертикальна тяга гуми на максимум + присідання з підйомом на носок 10-30 повторів. 3-5 підходів."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/boy_push_up.webp",
     description: "Негативні віджимання від підлоги. Тотал 20-40. Опускаємось не менше 3 секунд. Позитивну фазу виключити."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/girl_twisting.webp",
     description: "Опціонально. Тотал 100 скручувань на прес."
   },
 ];

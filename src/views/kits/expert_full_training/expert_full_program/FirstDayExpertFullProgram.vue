@@ -1,11 +1,11 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Максимальна кількість підтягування за 10 хвилин."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_deeps.webp",
     description: "Максимальна кількість віджимань на брусах за 10 хвилин."
   },
   {
@@ -13,15 +13,15 @@ const exercises = [
     description: "Повний відпочинок 7 хвилин."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Максимальна кількість підтягувань з нижнього хвату за 7 хвилин."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/boy_push_up.webp",
     description: "Максимальна кількість віджимань від підлоги за 7 хвилин."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/girl_squat.webp",
     description: "Тотал 100-160 присідань без ваги."
   },
 ];

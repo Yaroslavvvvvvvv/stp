@@ -1,28 +1,28 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Відпочинок 20 секунд. Підтягування 2 повтори. Кожен новий +1."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_deeps.webp",
     description: "Те саме на віджиманнях на брусах."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Відпочинок 20 секунд. Підтягування з гумою 4 повтори. Кожен новий +1."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/boy_push_up.webp",
     description: "Те саме на віджиманнях від підлоги."
   },
   {
-    image: "/images/girl_push_up.webp",
-    description: "Повторення цих пунктів та відпочинок 40 секунд."
+    image: "/images/repeat.webp",
+    description: "Повторення цих пунктів але відпочинок 40 секунд."
   },
   {
-    image: "/images/girl_push_up.webp",
-    description: "Тотал 60-200 присідань.g"
+    image: "/images/girl_squat.webp",
+    description: "Тотал 60-200 присідань."
   },
 ];
 </script>

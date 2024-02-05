@@ -1,24 +1,24 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/weight.webp",
     description: "Жим над головою по черзі з вагою 10-24 кг можна зі швунгом. В одній динаміці."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/men_pull_up.webp",
     description: "Підтягування 8-18 повторів + 10-15 повторів горизонтальних тяг на спину з 10-32 кг тримаємо двома " +
         "руками + 10-15 станових тяг з гирею зі зведенням лопаток."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/girl_squat.webp",
     description: "Присідання + 16-32 кг на протязі 30-45 секунд."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/repeat.webp",
     description: "Дублюємо все протягом 50 хвилин."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/girl_twisting.webp",
     description: "Тотал 100-200 джампінг джеків + тотал 60-100 скручування на прес на підлозі."
   },
 ];
