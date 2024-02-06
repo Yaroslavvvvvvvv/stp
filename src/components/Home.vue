@@ -3,14 +3,10 @@
     <section class="box_animate bg-gray-200 flex">
       <div class="box animate rotate">
         <div class="front animate movefront flex animate-fade-down" :style="{ background: frontColor }">
-          <div class="flex m-6">
-            <img src="/public/vite.svg" alt="" class="my_img">
-          </div>
+            <img src="/public/vite.svg" alt="" class="my_img m-6">
         </div>
         <div class="back animate moveback flex" :style="{ background: backColor }">
-          <div class="flex m-6">
-            <img src="/public/vite.svg" alt="" class="my_img">
-          </div>
+            <img src="/public/vite.svg" alt="" class="my_img m-6">
         </div>
       </div>
     </section>
