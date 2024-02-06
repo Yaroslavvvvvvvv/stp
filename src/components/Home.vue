@@ -1,14 +1,19 @@
 <template>
   <router-link to="/levels">
-    <section class="box_animate flex bg-gray-200">
+    <section class="box_animate bg-gray-200 flex">
       <div class="box animate rotate">
-        <div class="front animate movefront" :style="{ background: frontColor }">
+        <div class="front animate movefront flex animate-fade-down" :style="{ background: frontColor }">
+          <div class="flex m-6">
+            <img src="/public/vite.svg" alt="" class="">
+          </div>
         </div>
-        <div class="back animate moveback" :style="{ background: backColor }">
+        <div class="back animate moveback flex" :style="{ background: backColor }">
+          <div class="flex m-6">
+            <img src="/public/vite.svg" alt="" class="">
+          </div>
         </div>
       </div>
     </section>
-
   </router-link>
 </template>
 
@@ -26,14 +31,16 @@
 }
 .front {
   position: absolute;
-  width: 50%;
-  height: 50%;
+  width: 70%;
+  height: 70%;
   background: green;
   margin: auto;
   top: 0;
   bottom: 0;
   right: 0;
   left: 0;
+  border-radius: 20px;
+  border: 5px solid black;
 }
 .movefront{
 
@@ -51,14 +58,16 @@
 }
 .back {
   position: absolute;
-  width: 50%;
-  height: 50%;
+  width: 70%;
+  height: 70%;
   background: blue;
   margin: auto ;
   top: 0;
   bottom: 0;
   right: 0;
   left: 0;
+  border-radius: 20px;
+  border: 5px solid black;
 }
 .moveback {
   animation-name: testZ1 ;
