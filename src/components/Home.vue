@@ -1,6 +1,10 @@
 <template>
+  <div class="bg_images my_bg max-w-full">
+    <div>
+      <p class="text-white text-xl text-center"></p>
+    </div>
   <router-link to="/levels">
-    <section class="box_animate bg-gray-200 flex">
+    <div class="box_animate flex">
       <div class="box animate rotate">
         <div class="front animate movefront flex animate-fade-down" :style="{ background: frontColor }">
             <img src="/public/vite.svg" alt="" class="p-6">
@@ -9,12 +13,19 @@
             <img src="/public/vite.svg" alt="" class="p-6">
         </div>
       </div>
-    </section>
+    </div>
   </router-link>
+  </div>
 </template>
 
 <style scoped>
-
+.bg_images{
+  background-image: url("/public/images/mybg.webp");
+  min-width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .box {
   position: relative;
   width: 500px;
