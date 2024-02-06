@@ -4,12 +4,12 @@
       <div class="box animate rotate">
         <div class="front animate movefront flex animate-fade-down" :style="{ background: frontColor }">
           <div class="flex m-6">
-            <img src="/public/vite.svg" alt="" class="">
+            <img src="/public/vite.svg" alt="" class="w-full">
           </div>
         </div>
         <div class="back animate moveback flex" :style="{ background: backColor }">
           <div class="flex m-6">
-            <img src="/public/vite.svg" alt="" class="">
+            <img src="/public/vite.svg" alt="" class="w-full">
           </div>
         </div>
       </div>
