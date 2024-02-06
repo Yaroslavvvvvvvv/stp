@@ -3,10 +3,10 @@
     <section class="box_animate bg-gray-200 flex">
       <div class="box animate rotate">
         <div class="front animate movefront flex animate-fade-down" :style="{ background: frontColor }">
-            <img src="/public/vite.svg" alt="" class="my_img m-6">
+            <img src="/public/vite.svg" alt="" class="p-6">
         </div>
         <div class="back animate moveback flex" :style="{ background: backColor }">
-            <img src="/public/vite.svg" alt="" class="my_img m-6">
+            <img src="/public/vite.svg" alt="" class="p-6">
         </div>
       </div>
     </section>
@@ -14,10 +14,7 @@
 </template>
 
 <style scoped>
-.my_img {
-  width: 100%; /* Устанавливаем ширину изображения на 100% от контейнера */
-  height: auto; /* Сохраняем соотношение сторон */
-}
+
 .box {
   position: relative;
   width: 500px;
@@ -31,7 +28,7 @@
 }
 .front {
   position: absolute;
-  width: 70%;
+  width: 50%;
   height: 70%;
   background: green;
   margin: auto;
@@ -58,7 +55,7 @@
 }
 .back {
   position: absolute;
-  width: 70%;
+  width: 50%;
   height: 70%;
   background: blue;
   margin: auto ;
