@@ -6,7 +6,7 @@ const exercises = [
   },
   {
     image: "/images/men_deeps.webp",
-    description: "Тотал 80-120 віджимань на брусах у такому стилі. Відпочинок 1-3 хвилини."
+    description: "Тотал 80-120 віджимань на брусах у такому ж стилі. Відпочинок 1-3 хвилини."
   },
   {
     image: "/images/australian_pull_up.webp",
@@ -14,7 +14,7 @@ const exercises = [
   },
   {
     image: "/images/boy_push_up.webp",
-    description: "Тотал 100-140 віджимань від підлоги в такому стилі."
+    description: "Тотал 100-140 віджимань від підлоги у такому ж стилі."
   },
   {
     image: "/images/girl_squat.webp",
