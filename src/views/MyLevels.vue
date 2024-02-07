@@ -17,7 +17,7 @@
           <div class="mt-4 flex justify-between">
             <div>
               <router-link :to="`/` + product.to">
-              <h3 class="text-3xl font-extrabold text-center group-hover:scale-105" :class="product.color">
+              <h3 class="text-3xl font-extrabold text-center group-hover:scale-105 group-hover:rotate-3" :class="product.color">
                 {{ product.name }}
               </h3>
               </router-link>

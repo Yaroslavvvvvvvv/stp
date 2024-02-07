@@ -3,8 +3,8 @@
     <div>
       <p class="text-white text-xl text-center"></p>
     </div>
-  <router-link to="/levels">
-    <div class="box_animate flex">
+  <router-link to="/levels" class="">
+    <div class="box_animate flex hover:scale-125 transition-transform duration-300">
       <div class="box animate rotate">
         <div class="front animate movefront flex animate-fade-down" :style="{ background: frontColor }">
             <img src="/public/vite.svg" alt="" class="p-6">

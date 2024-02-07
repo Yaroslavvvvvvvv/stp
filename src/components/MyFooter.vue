@@ -10,7 +10,7 @@
             <a href="https://www.instagram.com/_yaroslav.kovalchuk_?igsh=bWpjYjZhMGJwZnpx">
               <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-7 w-7 mr-4"
+                  class="h-7 w-7 mr-4 hover:scale-125 transition-transform duration-300"
                   fill="currentColor"
                   style="color: white"
                   viewBox="0 0 24 24">
@@ -22,12 +22,11 @@
           <li>
             <a href="https://t.me/yaroslav_kovalchuk972">
               <svg
-                  class="h-7 w-7 mr-4"
+                  class="h-7 w-7 mr-4 hover:scale-125 transition-transform duration-300"
                   fill="currentColor"
                   viewbox="0 0 24 24"
                   style="color: white; fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;"
                   xmlns="http://www.w3.org/2000/svg"
-
                   xml:space="preserve">
   <path
       id="telegram-1"
