@@ -867,5 +867,10 @@ const router = createRouter({
     history: createWebHistory(),
     routes,
 });
+router.beforeEach((to, from, next) => {
+    // Прокручиваем страницу вверх при переходе на новый маршрут
+    window.scrollTo(0, 0);
+    next();
+});
 
 export default router;
