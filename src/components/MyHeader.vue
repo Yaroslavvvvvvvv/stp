@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-gray-950 sticky top-0 z-10">
+  <header :style="{ backgroundColor: isAtTop ? 'rgba(3, 7, 18, 1)' : 'rgba(3, 7, 18, 0.9)' }" class="sticky top-0 z-10 transition-all duration-300">
     <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8 animate-fade-down animate-duration-1000" aria-label="Global">
       <div class="flex lg:flex-1">
         <router-link to="/" class="-m-1.5 p-1.5">
@@ -61,4 +61,25 @@ import {
 } from '@heroicons/vue/24/outline'
 
 const mobileMenuOpen = ref(false)
+import { onMounted, onUnmounted } from 'vue'
+
+const isAtTop = ref(true)
+
+// Функция для проверки положения прокрутки
+const handleScroll = () => {
+  isAtTop.value = window.scrollY === 0
+}
+
+onMounted(() => {
+  // Добавляем обработчик события прокрутки при монтировании компонента
+  window.addEventListener('scroll', handleScroll)
+})
+
+onUnmounted(() => {
+  // Удаляем обработчик события прокрутки при демонтировании компонента, чтобы избежать утечек памяти
+  window.removeEventListener('scroll', handleScroll)
+})
 </script>
+<style scoped>
+
+</style>

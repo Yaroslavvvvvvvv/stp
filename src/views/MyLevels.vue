@@ -16,9 +16,11 @@
           </router-link>
           <div class="mt-4 flex justify-between">
             <div>
+              <router-link :to="`/` + product.to">
               <h3 class="text-3xl font-extrabold text-center" :class="product.color">
                 {{ product.name }}
               </h3>
+              </router-link>
               <p class="mt-2 text-md font-extrabold text-gray-950">{{product.pull_up}}</p>
               <p class="text-md font-extrabold text-gray-950">{{product.push_up}}</p>
               <p class="mt-2 text-md font-bold text-gray-950">{{ product.info }}</p>
