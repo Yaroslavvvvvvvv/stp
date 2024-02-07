@@ -39,8 +39,8 @@
 }
 .front {
   position: absolute;
-  width: 30%;
-  height: 50%;
+  width: 35%;
+  height: 45%;
   background: green;
   margin: auto;
   top: 0;
@@ -66,8 +66,8 @@
 }
 .back {
   position: absolute;
-  width: 30%;
-  height: 50%;
+  width: 35%;
+  height: 45%;
   background: blue;
   margin: auto ;
   top: 0;
