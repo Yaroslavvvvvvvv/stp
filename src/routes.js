@@ -7,6 +7,11 @@ const routes = [
         component: () => import('./components/Home.vue')
     },
     {
+        path: '/regulations',
+        name: 'regulations',
+        component: () => import('./components/Regulations.vue')
+    },
+    {
         path: '/levels',
         name: 'levels',
         component: () => import('./views/MyLevels.vue')

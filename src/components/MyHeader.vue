@@ -14,7 +14,7 @@
         </button>
       </div>
       <PopoverGroup class="hidden lg:flex lg:gap-x-12">
-        <router-link to="/levels" class="text-lg font-extrabold leading-6 text-gray-300 hover:text-white">Тренування</router-link>
+        <router-link to="/regulations" class="text-lg font-extrabold leading-6 text-gray-300 hover:text-white">Нормативи</router-link>
         <a href="#" class="text-lg font-extrabold leading-6 text-gray-300 hover:text-white">Marketplace</a>
         <a href="#" class="text-lg font-extrabold leading-6 text-gray-300 hover:text-white">Company</a>
       </PopoverGroup>
@@ -37,7 +37,7 @@
         <div class="mt-6 flow-root">
           <div class="-my-6 divide-y divide-gray-500/10">
             <div class="space-y-2 py-6">
-              <router-link to="/levels" class="-mx-3 block rounded-lg px-3 py-2 text-lg font-extrabold leading-7 text-gray-300 hover:text-white">Тренування</router-link>
+              <router-link to="/regulations" class="-mx-3 block rounded-lg px-3 py-2 text-lg font-extrabold leading-7 text-gray-300 hover:text-white">Нормативи</router-link>
               <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-lg font-extrabold leading-7 text-gray-300 hover:text-white">Marketplace</a>
               <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-lg font-extrabold leading-7 text-gray-300 hover:text-white">Company</a>
             </div>
