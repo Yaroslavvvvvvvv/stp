@@ -25,8 +25,8 @@
       </div>
     </div>
     <div class="flex justify-center">
-      <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-           stroke="currentColor" class="w-20 h-20 text-gray-950 animate-bounce bg-purple-800 rounded rounded-full">
+      <svg @click="scrollDown"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+           stroke="currentColor" class="w-20 h-20 text-gray-950 animate-bounce bg-purple-800 rounded-full">
         <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3" />
       </svg>
     </div>
@@ -153,6 +153,13 @@ export default {
     setInterval(this.changeColors, 15000);
   },
   methods: {
+    scrollDown() {
+      // Scroll to the next section or a specific position
+      window.scrollTo({
+        top: window.innerHeight, // Scroll to the height of the window
+        behavior: 'smooth' // Add smooth scrolling behavior
+      });
+    },
     changeColors() {
       // Изменяем цвета зеленого и синего на желтый и красный, и наоборот
       this.frontColor = this.frontColor === 'green' ? 'yellow' : 'green';
