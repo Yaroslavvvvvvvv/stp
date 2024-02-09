@@ -31,7 +31,7 @@
       </svg>
     </div>
     <router-link to="/levels" class="">
-      <div class="box_animate flex hover:scale-125 transition-transform duration-300">
+      <div class="box_animate flex hover:scale-125 transition-transform duration-300" ref="scrollTarget">
         <div class="box animate rotate">
           <div class="front animate movefront flex animate-fade-down" :style="{ background: frontColor }">
             <img src="/public/vite.svg" alt="" class="p-6">
@@ -154,10 +154,13 @@ export default {
   },
   methods: {
     scrollDown() {
-      // Scroll to the next section or a specific position
+      // Получаем координаты элемента, до которого будем скроллить
+      const targetPosition = this.$refs.scrollTarget.getBoundingClientRect().top;
+
+      // Прокручиваем к этому элементу
       window.scrollTo({
-        top: window.innerHeight, // Scroll to the height of the window
-        behavior: 'smooth' // Add smooth scrolling behavior
+        top: window.pageYOffset + targetPosition, // Учитываем текущую прокрутку
+        behavior: 'smooth'
       });
     },
     changeColors() {
