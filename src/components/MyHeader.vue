@@ -15,8 +15,6 @@
       </div>
       <PopoverGroup class="hidden lg:flex lg:gap-x-12">
         <router-link to="/regulations" class="text-lg font-extrabold leading-6 text-gray-300 hover:text-white">Нормативи</router-link>
-        <a href="#" class="text-lg font-extrabold leading-6 text-gray-300 hover:text-white">Marketplace</a>
-        <a href="#" class="text-lg font-extrabold leading-6 text-gray-300 hover:text-white">Company</a>
       </PopoverGroup>
     </nav>
     <Dialog as="div" class="lg:hidden" @close="mobileMenuOpen = false" :open="mobileMenuOpen">
@@ -38,8 +36,6 @@
           <div class="-my-6 divide-y divide-gray-500/10">
             <div class="space-y-2 py-6">
               <router-link to="/regulations" class="-mx-3 block rounded-lg px-3 py-2 text-lg font-extrabold leading-7 text-gray-300 hover:text-white">Нормативи</router-link>
-              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-lg font-extrabold leading-7 text-gray-300 hover:text-white">Marketplace</a>
-              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-lg font-extrabold leading-7 text-gray-300 hover:text-white">Company</a>
             </div>
           </div>
         </div>
