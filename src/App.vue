@@ -5,7 +5,7 @@ import MyFooter from "./components/MyFooter.vue";
 </script>
 
 <template>
-  <MyHeader/>
+  <MyHeader v-if="$route.path !== '/'" />
   <router-view/>
   <MyFooter/>
 </template>

@@ -2,7 +2,7 @@
   <header :style="{ backgroundColor: isAtTop ? 'rgba(3, 7, 18, 1)' : 'rgba(3, 7, 18, 0.9)' }" class="sticky top-0 z-10 transition-all duration-300">
     <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8 animate-fade-down animate-duration-1000" aria-label="Global">
       <div class="flex lg:flex-1">
-        <router-link to="/" class="-m-1.5 p-1.5 hover:scale-125 transition-transform duration-300">
+        <router-link to="/home" class="-m-1.5 p-1.5 hover:scale-125 transition-transform duration-300">
           <span class="sr-only">Your Company</span>
           <img class="h-8 w-auto" src="/vite.svg" alt="" />
         </router-link>
@@ -21,9 +21,9 @@
       <div class="fixed inset-0 z-10" />
       <DialogPanel
           @click="mobileMenuOpen = false"
-          class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-black px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+          class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-gray-900/90 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
         <div class="flex items-center justify-between">
-          <router-link to="/" class="-m-1.5 p-1.5 hover:scale-125 transition-transform duration-300">
+          <router-link to="/home" class="-m-1.5 p-1.5 hover:scale-125 transition-transform duration-300">
             <span class="sr-only">Your Company</span>
             <img class="h-8 w-auto" src="/vite.svg" alt="" />
           </router-link>

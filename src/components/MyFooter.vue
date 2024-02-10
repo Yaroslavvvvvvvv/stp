@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <footer class="bg-black">
+  <footer class="bg-gradient-to-r from-purple-500 to-pink-500">
     <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
         <ul class="flex justify-end mb-6 text-sm font-medium text-white sm:mb-0">
           <li>

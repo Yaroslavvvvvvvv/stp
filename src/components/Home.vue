@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-200 max-w-full animate-fade-down animate-duration-1000">
+  <div class="bg-gradient-to-r from-purple-500 to-pink-500 max-w-full animate-fade-down animate-duration-1000">
     <div class=" py-16 sm:py-16">
       <div class="mx-auto max-w-7xl px-6 lg:px-8">
         <div class="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
@@ -15,9 +15,9 @@
             <div class="text-base leading-7 text-gray-700 lg:max-w-lg">
               <h1 class="mt-2 text-2xl font-extrabold tracking-tight text-gray-950 sm:text-4xl">Basic Strength Program</h1>
               <div class="max-w-xl">
-                <p class="mt-6 font-bold text-lg text-gray-600">- дозволяє стабільно прогресувати без перевантаження ЦНС та шкоди здоров'ю, залишаючись на піку особистої продуктивності</p>
-                <p class="mt-8 font-bold text-lg text-gray-600">- тренування не повторюються, забезпечуючи найвищий рівень залученості, кожне нове заняття це своєрідний челендж</p>
-                <p class="mt-8 font-bold text-lg text-gray-600">- розрахована на тренування в будь-яких умовах та локаціях</p>
+                <p class="mt-6 font-bold text-lg text-gray-300">- дозволяє стабільно прогресувати без перевантаження ЦНС та шкоди здоров'ю, залишаючись на піку особистої продуктивності</p>
+                <p class="mt-8 font-bold text-lg text-gray-300">- тренування не повторюються, забезпечуючи найвищий рівень залученості, кожне нове заняття це своєрідний челендж</p>
+                <p class="mt-8 font-bold text-lg text-gray-300">- розрахована на тренування в будь-яких умовах та локаціях</p>
               </div>
             </div>
           </div>
@@ -26,12 +26,12 @@
     </div>
     <div class="flex justify-center mt-3">
       <svg @click="scrollDown"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-           stroke="currentColor" class="w-20 h-20 text-gray-950 animate-bounce hover:bg-purple-800 rounded-full">
+           stroke="currentColor" class="w-20 h-20  animate-bounce hover:bg-purple-800 rounded-full">
         <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3" />
       </svg>
     </div>
     <router-link to="/levels" class="">
-      <div class="box_animate flex hover:scale-125 transition-transform duration-300 flex justify-center">
+      <div class="box_animate  hover:scale-125 transition-transform duration-300 flex justify-center">
         <div class="box animate rotate">
           <div class="front animate movefront flex animate-fade-down" :style="{ background: frontColor }">
             <img src="/public/vite.svg" alt="" class="p-6">

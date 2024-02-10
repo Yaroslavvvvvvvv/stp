@@ -5,13 +5,12 @@ import App from './App.vue'
 import { initializeApp } from "firebase/app";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDW2m3NByCL3oGLVIyf9f2NxJTqmCNOBGA",
-    authDomain: "stp-app-6fcc7.firebaseapp.com",
-    projectId: "stp-app-6fcc7",
-    storageBucket: "stp-app-6fcc7.appspot.com",
-    messagingSenderId: "980064507607",
-    appId: "1:980064507607:web:75dc6cb8d290070f048292",
-    measurementId: "G-93MW89DRZ4"
+    apiKey: "AIzaSyBA9XNook9etePl5MJBPDbkgbIrtnlb5pc",
+    authDomain: "training-6686e.firebaseapp.com",
+    projectId: "training-6686e",
+    storageBucket: "training-6686e.appspot.com",
+    messagingSenderId: "785590995371",
+    appId: "1:785590995371:web:297e6710da80d6fe32aaee"
 };
 
 initializeApp(firebaseConfig);
