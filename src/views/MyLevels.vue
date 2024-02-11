@@ -43,7 +43,7 @@
 
 <script setup>
 import {ref} from 'vue';
-import firebase from "firebase/compat/app";
+
 
 const products = [
   {
