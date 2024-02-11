@@ -16,6 +16,12 @@
       <PopoverGroup class="hidden lg:flex lg:gap-x-12">
         <router-link to="/regulations" class="text-lg font-extrabold leading-6 text-gray-300 hover:text-white">Нормативи</router-link>
       </PopoverGroup>
+      <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+        <router-link @click="onLogOut"
+                     to="/"
+                     class="text-lg font-extrabold leading-6 text-gray-300 hover:text-white">
+          Вийти <span aria-hidden="true">&rarr;</span></router-link>
+      </div>
     </nav>
     <Dialog as="div" class="lg:hidden" @close="mobileMenuOpen = false" :open="mobileMenuOpen">
       <div class="fixed inset-0 z-10" />
@@ -37,6 +43,12 @@
             <div class="space-y-2 py-6">
               <router-link to="/regulations" class="-mx-3 block rounded-lg px-3 py-2 text-lg font-extrabold leading-7 text-gray-300 hover:text-white">Нормативи</router-link>
             </div>
+            <div class="py-6">
+              <router-link to="/"
+                           @click="onLogOut"
+                           class="-mx-3 block rounded-lg px-3 py-2.5 text-lg font-extrabold leading-7 text-gray-300 hover:text-white">
+                Вийти</router-link>
+            </div>
           </div>
         </div>
       </DialogPanel>
@@ -46,6 +58,7 @@
 
 <script setup>
 import { ref } from 'vue'
+import {getAuth, signOut} from "firebase/auth";
 import {
   Dialog,
   DialogPanel,
@@ -59,7 +72,11 @@ import {
 const mobileMenuOpen = ref(false)
 import { onMounted, onUnmounted } from 'vue'
 
+
 const isAtTop = ref(true)
+
+const onLogOut = () => signOut(getAuth())
+
 
 // Функция для проверки положения прокрутки
 const handleScroll = () => {

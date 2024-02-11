@@ -2,28 +2,30 @@
 import {ref} from "vue";
 import {getAuth, createUserWithEmailAndPassword} from "firebase/auth";
 import {useRouter} from "vue-router";
-
+import {toast} from "vue3-toastify";
+import 'vue3-toastify/dist/index.css';
 
 const email = ref("");
 const password = ref("");
 const router = useRouter()
 
-const SignIn = () => {
+const SignOn = () => {
   createUserWithEmailAndPassword(getAuth(), email.value, password.value)
       .then((data) => {
-        console.log('Успішна реєстрація');
-        router.push('/')
+        toast.success('Успішна реєстрація');
+        setTimeout(() => {
+          router.push('/');
+        }, 1000);
       })
       .catch((error) => {
-        console.log(error.code);
-        alert(error.message);
+        toast.error(error.message);
       });
 };
 
 </script>
 
 <template>
-  <div class="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8 bg-gradient-to-r from-purple-500 to-pink-500 animate-fade-down animate-duration-1000">
+  <div class="h-screen flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8 bg-gradient-to-r from-purple-500 to-pink-500 animate-fade-down animate-duration-1000">
 
 
     <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
@@ -49,7 +51,7 @@ const SignIn = () => {
 
         <div>
           <button type="button"
-                  @click="SignIn"
+                  @click="SignOn"
                   class="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-700">
             Створити акаунт
           </button>

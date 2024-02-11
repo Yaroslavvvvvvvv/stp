@@ -31,7 +31,7 @@
       </svg>
     </div>
     <router-link to="/levels" class="">
-      <div class="box_animate  hover:scale-125 transition-transform duration-300 flex justify-center">
+      <div class="box_animate flex justify-center">
         <div class="box animate rotate">
           <div class="front animate movefront flex animate-fade-down" :style="{ background: frontColor }">
             <img src="/public/vite.svg" alt="" class="p-6">
