@@ -6,8 +6,8 @@ import {toast} from "vue3-toastify";
 const router = useRouter()
 
 const email = ref("");
-const onResetPassword = (email) => {
-  sendPasswordResetEmail(getAuth(), email)
+const onResetPassword = () => {
+  sendPasswordResetEmail(getAuth(), email.value)
       .then((data) => {
         toast.success('Повідомлення надійшло на пошту');
         setTimeout(() => {
