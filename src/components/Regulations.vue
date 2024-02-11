@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="bg-gradient-to-r from-purple-500 to-pink-500 h-screen">
+  <div class="bg-gradient-to-r from-purple-500 to-pink-500">
     <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8 min-h-sceen animate-fade-down animate-duration-1000">
       <div class="flex flex-col items-center">
         <p class="text-gray-950 font-extrabold text-sm md:text-lg lg:text-xl xl:text-2xl mb-5">
