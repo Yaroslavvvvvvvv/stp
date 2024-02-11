@@ -1,6 +1,6 @@
 <script setup>
 import {ref} from "vue";
-import {getAuth, createUserWithEmailAndPassword} from "firebase/auth";
+import {getAuth, createUserWithEmailAndPassword, sendEmailVerification,} from "firebase/auth";
 import {useRouter} from "vue-router";
 import {toast} from "vue3-toastify";
 import 'vue3-toastify/dist/index.css';
@@ -10,17 +10,29 @@ const password = ref("");
 const router = useRouter()
 
 const SignOn = () => {
-  createUserWithEmailAndPassword(getAuth(), email.value, password.value)
-      .then((data) => {
-        toast.success('Успішна реєстрація');
+  const auth = getAuth();
+  createUserWithEmailAndPassword(auth, email.value, password.value)
+      .then((userCredential) => {
+        const user = userCredential.user;
+
+        // Send email verification
+        sendEmailVerification(user)
+            .then(() => {
+              toast.success('Email для підтвердження відправлено.');
+            })
+            .catch((error) => {
+              toast.error(error.message);
+            });
+
         setTimeout(() => {
           router.push('/');
-        }, 1000);
+        }, 2000);
       })
       .catch((error) => {
         toast.error(error.message);
       });
 };
+
 
 </script>
 

@@ -12,11 +12,16 @@ const router = useRouter()
 
 const SignIn = () => {
   signInWithEmailAndPassword(getAuth(), email.value, password.value)
-      .then((data) => {
-        toast.success('Вхід у систему');
-        setTimeout(() => {
-          router.push('/home');
-        }, 1000);
+      .then((userCredential) => {
+        const user = userCredential.user;
+        if (user.emailVerified) {
+          toast.success('Вхід у систему');
+          setTimeout(() => {
+            router.push('/home');
+          }, 1000);
+        } else {
+          toast.error('Ви повинні підтвердити свій email.');
+        }
       })
       .catch((error) => {
         toast.error(error.message);
