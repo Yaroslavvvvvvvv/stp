@@ -26,8 +26,9 @@ const SignOn = () => {
 
 <template>
   <div class="h-screen flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8 bg-gradient-to-r from-purple-500 to-pink-500 animate-fade-down animate-duration-1000">
-
-
+    <div class="sm:mx-auto sm:w-full sm:max-w-sm">
+      <h2 class="mt-10 font-extrabold text-center text-2xl leading-9 tracking-tight text-indigo-700">Реєстрація</h2>
+    </div>
     <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
       <form class="space-y-6" action="#" method="POST">
         <div>
