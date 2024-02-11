@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="w-10/12 md:w-7/12 lg:6/12 mx-auto relative py-20 animate-fade-down animate-duration-1000">
+  <div class="h-screen w-10/12 md:w-7/12 lg:6/12 mx-auto relative py-20 animate-fade-down animate-duration-1000">
     <router-link to="/expert_kits">
       <button class="mb-8 group relative h-12 w-48 overflow-hidden rounded-2xl bg-red-600 text-lg font-bold text-white">
         Повернутись назад
