@@ -5,11 +5,11 @@
   <carousel :itemsToShow="1" class="bg-gradient-to-r from-purple-500 to-pink-500">
     <slide v-for="slide in slides" :key="slide.id" class="">
       <div class="min-w-screen min-h-screen  flex items-center p-5 lg:p-10 overflow-hidden relative">
-        <div class="w-full border-2 border-black max-w-6xl rounded bg-gray-200 shadow-xl p-10 lg:p-20 mx-auto text-gray-800 relative md:text-left">
+        <div class=" w-full max-w-6xl rounded shadow-2xl p-10 lg:p-20 mx-auto text-gray-800 relative md:text-left">
           <router-link :to="`/` + slide.to" class="">
             <div class="md:flex items-center -mx-10 animate-fade-down animate-duration-1000">
               <div class="w-full md:w-1/2 px-10 mb-10 md:mb-0">
-                <div class="relative">
+                <div class="relative transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300">
                   <img :src="slide.imageSrc" class="w-full relative z-10" alt="">
                 </div>
               </div>
@@ -18,7 +18,7 @@
                   <h1 class="font-extrabold uppercase text-3xl mb-5" :class="slide.color">{{ slide.name }}</h1>
                   <p class="mt-2 text-sm font-extrabold text-gray-950">{{ slide.pull_up }}</p>
                   <p class="text-sm font-extrabold text-gray-950">{{ slide.push_up }}</p>
-                  <p class="mt-2 text-md font-bold text-gray-700">{{ slide.info }}</p>
+                  <p class="mt-2 text-md font-bold text-gray-200">{{ slide.info }}</p>
                 </div>
                 <div>
                 </div>
@@ -56,8 +56,7 @@ export default {
           name: 'Новачок',
           to: 'beginner_kits',
           imageSrc: '/images/men_pull_up.webp',
-          info: 'Призначений для початкової підготовки та приведення в тонус, людини з практично нульовим рівнем будь-яким ' +
-              'силових показників.',
+          info: 'Призначений для початкової підготовки та приведення в тонус, людини з нульовим рівнем силових показників.',
           color: 'text-green-500',
           pull_up: 'Підтягування - 0',
           push_up: 'Віджимання від підлоги - 0',
