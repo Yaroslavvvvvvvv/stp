@@ -18,7 +18,7 @@
         <div class="relative flex flex-col shadow-md rounded-xl overflow-hidden hover:shadow-lg hover:-translate-y-1 transition-all duration-300 max-w-sm">
           <div class="h-auto overflow-hidden">
             <div class="h-44 overflow-hidden relative">
-              <img src="../../../../../public/images/girl_push_up.webp" alt="" class="">
+              <img src="../../../../../public/images/squat.webp" alt="" class="">
             </div>
           </div>
           <div class="bg-white py-4 px-3">
@@ -31,7 +31,7 @@
             class="relative flex flex-col shadow-md rounded-xl overflow-hidden hover:shadow-lg hover:-translate-y-1 transition-all duration-300 max-w-sm">
           <div class="h-auto overflow-hidden">
             <div class="h-44 overflow-hidden relative">
-              <img src="../../../../../public/images/second_run_man.webp" alt="" class="">
+              <img src="../../../../../public/images/cardio.webp" alt="" class="">
             </div>
           </div>
           <div class="bg-white py-4 px-3">

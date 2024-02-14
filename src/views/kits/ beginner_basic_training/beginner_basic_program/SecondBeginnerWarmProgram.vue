@@ -18,7 +18,7 @@
         <div class="relative flex flex-col shadow-md rounded-xl overflow-hidden hover:shadow-lg hover:-translate-y-1 transition-all duration-300 max-w-sm">
           <div class="h-auto overflow-hidden">
             <div class="h-44 overflow-hidden relative">
-              <img src="../../../../../public/images/steam_press.webp" alt="" class="">
+              <img src="../../../../../public/images/lunges.webp" alt="" class="">
             </div>
           </div>
           <div class="bg-white py-4 px-3">
@@ -31,7 +31,7 @@
         <div class="relative flex flex-col shadow-md rounded-xl overflow-hidden hover:shadow-lg hover:-translate-y-1 transition-all duration-300 max-w-sm">
           <div class="h-auto overflow-hidden">
             <div class="h-44 overflow-hidden relative">
-              <img src="../../../../../public/images/woman_jump.webp" alt="" class="">
+              <img src="../../../../../public/images/jump_rope.webp" alt="" class="">
             </div>
           </div>
           <div class="bg-white py-4 px-3">

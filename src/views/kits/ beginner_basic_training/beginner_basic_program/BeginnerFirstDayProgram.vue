@@ -1,29 +1,29 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/light_push_up.webp",
     description: "1-6 віджимання від підлоги з колін + 2-10 скручування на прес на підлозі. 1-1.5 хвилин роботи."
   },
   {
-    image: "/images/girl_squat.webp",
+    image: "/images/squat.webp",
     description: "Присідання з підйомом на носок 5-10 повторів + упор на прямих руках 5-15 секунд + підтягування стоячи\n" +
         "              ногами на землі в одній динаміці."
   },
   {
-    image: "/images/girl_deadlift.webp",
+    image: "/images/deadlift.webp",
     description: "Підтягування стоячи ногами на землі до первинної втоми + мертва тяга зі зведенням лопаток з вагою від 6 до\n" +
         "              20 кг до первинної втоми."
   },
   {
-    image: "/images/repeat.webp",
+    image: "/images/water.webp",
     description: "Повторення пунктів з 1 по 3."
   },
   {
-    image: "/images/boy_biceps.webp",
+    image: "/images/dumbbell_press.webp",
     description: "Підйом ваги від 4 до 8 кг на біцепс з наступним жимом над головою. В одній динаміці два підходи."
   },
   {
-    image: "/images/second_run_man.webp",
+    image: "/images/treadmill.webp",
     description: "Кардіо навантаження 10-20 хвилин. Не інтенсивне."
   },
 ];
