@@ -1,7 +1,7 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/men_pull_up.webp",
+    image: "/images/boy_pull_up.webp",
     description: "Підтягування стоячи ногами на землі. Тотал 8-40."
   },
   {
@@ -9,11 +9,11 @@ const exercises = [
     description: "Австралійські підтягування тотал 8-30."
   },
   {
-    image: "/images/men_pull_up.webp",
+    image: "/images/gym_pull_up.webp",
     description: "Підтягування стоячи ногами землі тотал 10-40."
   },
   {
-    image: "/images/boy_push_up.webp",
+    image: "/images/gym_push_up.webp",
     description: "Віджимання від підлоги. Тотал 6-20."
   },
   {
