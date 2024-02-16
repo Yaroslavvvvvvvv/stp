@@ -9,20 +9,22 @@
         <p class="text-gray-950 font-extrabold text-sm md:text-lg lg:text-xl xl:text-2xl mb-5">
           Виконання нормативів системи дозволить перевірити свої сили та відстежити прогрес
         </p>
-        <ul class="list-disc">
-          <li class="text-gray-200 text-sm md:text-lg lg:text-xl xl:text-2xl font-bold mb-2 ml-2">
-            допустимо відпочивати у нейтральних позиціях не більше 3 секунд</li>
-          <li class="text-gray-200 text-sm md:text-lg lg:text-xl xl:text-2xl font-bold mb-2 ml-2">
-            присідання необхідно виконувати нижче 90 градусів і майже повністю виключаючи коліна</li>
-          <li class="text-gray-200 text-sm md:text-lg lg:text-xl xl:text-2xl font-bold mb-2 ml-2">
-            руки на віджиманнях необхідно розгинати повністю, тіло має бути пряме, а таз має рухатись синхронно з верхом тіла</li>
-          <li class="text-gray-200 text-sm md:text-lg lg:text-xl xl:text-2xl font-bold mb-2 ml-2">
-            лікті на підтягуваннях повинні бути розігнуті, плечі повинні бути вимкнені майже повністю,
-            підборіддя має чітко заходити трохи вище за рівень верхньої грані турніка</li>
-          <li class="text-gray-200 text-sm md:text-lg lg:text-xl xl:text-2xl font-bold mb-2 ml-2">
-            розгойдування виключено, допускається природне механічне коливання
-          </li>
-        </ul>
+        <div class="flex">
+          <ul class="list-disc">
+            <li class="text-gray-200 text-sm md:text-lg lg:text-xl xl:text-2xl font-bold mb-2 ml-2">
+              допустимо відпочивати у нейтральних позиціях не більше 3 секунд</li>
+            <li class="text-gray-200 text-sm md:text-lg lg:text-xl xl:text-2xl font-bold mb-2 ml-2">
+              присідання необхідно виконувати нижче 90 градусів і майже повністю виключаючи коліна</li>
+            <li class="text-gray-200 text-sm md:text-lg lg:text-xl xl:text-2xl font-bold mb-2 ml-2">
+              руки на віджиманнях необхідно розгинати повністю, тіло має бути пряме, а таз має рухатись синхронно з верхом тіла</li>
+            <li class="text-gray-200 text-sm md:text-lg lg:text-xl xl:text-2xl font-bold mb-2 ml-2">
+              лікті на підтягуваннях повинні бути розігнуті, плечі повинні бути вимкнені майже повністю,
+              підборіддя має чітко заходити трохи вище за рівень верхньої грані турніка</li>
+            <li class="text-gray-200 text-sm md:text-lg lg:text-xl xl:text-2xl font-bold mb-2 ml-2">
+              розгойдування виключено, допускається природне механічне коливання
+            </li>
+          </ul>
+        </div>
       </div>
       <div class="grid divide-y divide-gray-200 max-w-xl mx-auto mt-8">
         <div class="py-5">

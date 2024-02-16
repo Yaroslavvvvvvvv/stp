@@ -15,9 +15,9 @@
             <div class="text-base leading-7 text-gray-700 lg:max-w-lg">
               <h1 class="mt-2 text-2xl font-extrabold tracking-tight text-gray-950 sm:text-4xl">Basic Strength Program</h1>
               <div class="max-w-xl">
-                <p class="mt-6 font-bold text-lg text-gray-300">- дозволяє стабільно прогресувати без перевантаження ЦНС та шкоди здоров'ю, залишаючись на піку особистої продуктивності</p>
-                <p class="mt-8 font-bold text-lg text-gray-300">- тренування не повторюються, забезпечуючи найвищий рівень залученості, кожне нове заняття це своєрідний челендж</p>
-                <p class="mt-8 font-bold text-lg text-gray-300">- розрахована на тренування в будь-яких умовах та локаціях</p>
+                <p class="mt-6 font-bold text-lg text-gray-200">- дозволяє стабільно прогресувати без перевантаження ЦНС та шкоди здоров'ю, залишаючись на піку особистої продуктивності</p>
+                <p class="mt-8 font-bold text-lg text-gray-200">- тренування не повторюються, забезпечуючи найвищий рівень залученості, кожне нове заняття це своєрідний челендж</p>
+                <p class="mt-8 font-bold text-lg text-gray-200">- розрахована на тренування в будь-яких умовах та локаціях</p>
               </div>
             </div>
           </div>
@@ -157,7 +157,6 @@ export default {
     scrollDown() {
       // Получаем координаты элемента, до которого будем скроллить
       const targetPosition = this.$refs.scrollTarget.getBoundingClientRect().top;
-
       // Прокручиваем к этому элементу
       window.scrollTo({
         top: window.pageYOffset + targetPosition, // Учитываем текущую прокрутку

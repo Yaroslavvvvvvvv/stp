@@ -4,7 +4,7 @@ import router from './routes';
 import App from './App.vue'
 import "@firebase/auth";
 import firebase from "firebase/compat/app";
-
+import 'v-calendar/style.css'
 
 const firebaseConfig = {
     apiKey: "AIzaSyBA9XNook9etePl5MJBPDbkgbIrtnlb5pc",

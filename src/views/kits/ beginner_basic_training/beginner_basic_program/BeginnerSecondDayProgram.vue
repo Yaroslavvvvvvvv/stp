@@ -13,23 +13,23 @@ const exercises = [
     description: "Підтягування стоячи ногами землі тотал 10-40."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/boy_push_up.webp",
     description: "Віджимання від підлоги. Тотал 6-20."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/light_push_up.webp",
     description: "Віджимання від підлоги з колін. Тотал 10-30."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/another_push_up.webp",
     description: "Віджимання від високих підставок. Тотал 10-30."
   },
   {
-    image: "/images/girl_squat.webp",
+    image: "/images/squat.webp",
     description: "Присідання. Кожні 30 секунд 2-5 повторів. Тотал 30-50."
   },
   {
-    image: "/images/second_run_man.webp",
+    image: "/images/jump_rope.webp",
     description: "Кардіо навантаження 10 хвилин."
   },
 ];
