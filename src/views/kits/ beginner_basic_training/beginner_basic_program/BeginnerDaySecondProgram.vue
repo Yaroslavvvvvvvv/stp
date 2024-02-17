@@ -30,7 +30,7 @@ const exercises = [
     description: "Австралійські підтягування до первинної втоми."
   },
   {
-    image: "/images/girl_squat.webp",
+    image: "/images/caviar.webp",
     description: "Підйоми на ікри 10 повторів. Відпочинок 30 секунд і ще раз."
   },
   {

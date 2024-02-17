@@ -5,19 +5,19 @@ const exercises = [
     description: "Австралійські підтягування в одній динаміці + горизонтальна тяга гуми на максимум. 10 хвилин роботи."
   },
   {
-    image: "/images/girl_squat.webp",
+    image: "/images/gym_push_up.webp",
     description: "\"Стульчик\" 5-10 секунд + 5-10 \"Насос\" + 5-10 присідань + 5-10 віджимань від підлоги або з колін. Три підходи."
   },
   {
-    image: "/images/girl_twisting.webp",
+    image: "/images/gym_pull_up.webp",
     description: "Підтягування стоячи ногами на землі в одній динаміці + скручування на прес на підлозі протягом 20-30 секунд. 2 підходи."
   },
   {
-    image: "/images/man_swing.webp",
+    image: "/images/boy_swing.webp",
     description: "Махи на плечі від 1 до 4 кг або з гумою. 15-30 повторів. Відпочинок 45 секунд. 4 підходи."
   },
   {
-    image: "/images/second_run_man.webp",
+    image: "/images/cardio.webp",
     description: "Кардіо навантаження 10-15 хвилин."
   },
 ];

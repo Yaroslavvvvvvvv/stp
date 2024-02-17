@@ -1,28 +1,28 @@
 <script setup>
 const exercises = [
   {
-    image: "/images/men_pull_up.webp",
+    image: "/images/gym_pull_up.webp",
     description: "Підтягування з гумою. 1 повтор кожні 30-45 секунд або швидше. Тотал 10-35."
   },
   {
-    image: "/images/girl_push_up.webp",
+    image: "/images/gym_push_up.webp",
     description: "Віджимання від підлоги. Тотал 10-40. Кожне останнє віджимання підходу робимо негативне опускання 3-5 " +
         "секунд або стоїмо в упорі на прямих руках 7-10 секунд."
   },
   {
-    image: "/images/girl_squat.webp",
+    image: "/images/squat.webp",
     description: "5-10 присідань + 10-20 махів на плечі, вага 2-5 кг або з гумою. 10 хвилин роботи."
   },
   {
-    image: "/images/dumbbell_press.webp",
+    image: "/images/bench_press.webp",
     description: "Жим від грудей 5-16 кг у кожній руці, лежачи на підлозі або гумою в одній динаміці."
   },
   {
-    image: "/images/vertical_thrust.webp",
+    image: "/images/vertical_rubber.webp",
     description: "Вертикальна тяга гуми на максимум."
   },
   {
-    image: "/images/repeat.webp",
+    image: "/images/water.webp",
     description: "Повторення пунктів 4-5."
   },
   {
@@ -30,15 +30,15 @@ const exercises = [
     description: "Горизонтальна тяга гуми на максимум."
   },
   {
-    image: "/images/girl_squat.webp",
+    image: "/images/caviar.webp",
     description: "Підйоми на ікри 10 повторів. Відпочинок 30 секунд і ще раз."
   },
   {
-    image: "/images/repeat.webp",
+    image: "/images/water.webp",
     description: "Повтор пунктів 7 і 8."
   },
   {
-    image: "/images/second_run_man.webp",
+    image: "/images/cardio_first.webp",
     description: "Кардіо навантаження 10-15 хвилин."
   },
 ];
